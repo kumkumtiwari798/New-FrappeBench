@@ -1,0 +1,181 @@
+mariadb 
+mariadb -u root -p or sudo mariadb 
+create database (database name);
+show database;
+use (database name);
+
+CREATE TABLE Tablename (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100),
+    Section VARCHAR(10),
+    Score INT
+);
+
+INSERT INTO Student (Name, Section, Score) VALUES
+('Gaurav Bhatia', 'A', 85),
+('Neha Gupta', 'B', 92),
+('Nitin Sharma', 'C', 78),
+('Amit Kumar', 'A', 88),
+('Bina Patel', 'B', 91),
+('Gita Verma', 'C', 79),
+('Nisha Singh', 'A', 95);
+
+display information about the columns in the Student table, including the column names, data types, and any constraints or properties.
+
+DESCRIBE Student;
+SHOW COLUMNS FROM Student;
+
+display all the rows and columns from the Student table. If you want to see only specific columns or rows, you can modify the query accordingly.
+
+SELECT * FROM Student;
+SELECT Name, Score FROM Student;
+SELECT * FROM Student WHERE Section = 'A';
+
+
+1. Find the top 10 students having highest score and name starting with G and ending with E :-
+
+SELECT Name, Section, Score
+FROM Student
+WHERE Name LIKE 'G%E'
+ORDER BY Score DESC
+LIMIT 10;
+
+
+2. Find out the students having score less than 25 and mark the students as passed or failed in a separate column while displaying the data
+
+******** pass and fail both *******
+SELECT Name, Section, Score,
+       CASE
+           WHEN Score >= 25 THEN 'Passed'
+           ELSE 'Failed'
+       END AS Status
+FROM Student;
+
+******* Pass ********
+
+SELECT Name, Section, Score,
+       CASE
+           WHEN Score >= 25 THEN 'Passed'
+           ELSE 'Failed'
+       END AS Status
+FROM Student
+WHERE Score >= 25;
+
+***** fail *******
+
+SELECT Name, Section, Score,
+       CASE
+           WHEN Score < 25 THEN 'Failed'
+           ELSE 'Passed'
+       END AS Status
+FROM Student
+WHERE Score < 25;
+
+after :-- create new clm status   
+CREATE VIEW StudentStatus AS
+SELECT Name, Section, Score,
+       CASE
+           WHEN Score >= 25 THEN 'Passed'
+           ELSE 'Failed'
+       END AS Status
+FROM Student;
+
+and then show it by this command
+
+SELECT Name, Section, Score, Status
+FROM StudentStatus
+WHERE Status = 'Passed';
+
+3. Count out the names of students containing the letter B and N and also display their section.
+
+SELECT COUNT(Name)
+FROM Student
+WHERE Name LIKE '%B%' AND Name LIKE '%N%';
+
+SELECT Name, Section
+FROM Student
+WHERE Name LIKE '%B%' AND Name LIKE '%N%';
+
+SELECT section, count(*) FROM Student GROUP BY section HAVING name LIKE '%B%N';
+
+4. Count out the number of students grouped by section and order them descending section wise
+
+SELECT Section, COUNT(*) FROM Student GROUP BY Section ORDER BY Section DESC;
+
+SELECT Section, COUNT(*) FROM Student GROUP BY Section ORDER BY Section ;
+
+CREATE DATABASE IF NOT EXISTS my_db;
+SHOW DATABASES;
+switch dabese to one to another = USE (database name);
+===================================================
+SELECT empId, rating
+       CASE
+          WHEN rating >7 THEN 'good'
+          WHEN rating >5 AND rating<=7 THEN'Average'
+          ELSE 'Needs Improvement' 
+       END AS Status
+FROM employee
+
+================================================
+
+join (outer , inner) :-- Imagine two tables - Student(name, id, section_id, marks)
+Section(Section_id, section_name, location)
+
+1. Display all students at Section A
+2. Display all students at Section B with marks > 25
+3. Display all student details with section A and then display all section details
+
+SELECT * FROM STUDENTS st INNER JOIN SECTION se ON st.section_id=se.section_id AND se.section_name='A"
+Goutam Bose
+4:31 PM
+SELECT * FROM STUDENTS st INNER JOIN SECTION se ON st.section_id=se.section_id AND se.section_name='B" AND st.marks > 25
+Goutam Bose
+4:32 PM
+SELECT * FROM STUDENTS st OUTER RIGHT JOIN SECTION se ON st.section_id=se.section_id AND se.section_name='A";
+
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Clark', 'Sales');
+INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Accounting');
+INSERT INTO EMPLOYEE VALUES (0003, 'Ava', 'Sales');
+
+-- fetch 
+
+SELECT *
+FROM EMPLOYEE ;
+
+CREATE VIEW view_emp AS
+SELECT empId, name
+FROM EMPLOYEE
+WHERE dept = 'sales';
+
+SELECT *
+FROM view_emp;
+
+CREATE OR REPLACE VIEW view_emp AS
+SELECT *
+FROM EMPLOYEE
+WHERE dept = 'Accounting';
+
+SELECT *
+FROM view_emp;
+
+-- DROP VIEW view_emp;
+monday : indexing and  view 
+=================================================
+chhotu kumar:-
+EFT (OUTER) JOIN keyword is used to return records matching join condition as well as all un-matched records from the first table in query.
+LEFT (OUTER) JOIN keyword is used to return records matching join condition as well as all un-matched records from the first table in query.
+In a school management system, a left join could be used to retrieve the list of all students, along with the courses they are enrolled in and the respective teachers. This would ensure that all students are included, even if they are not enrolled in any courses.
+--Description: RIGHT (OUTER) JOIN keyword is used to return records matching join condition as well as all un-matched records from the second table in query.
+In a course registration system, a right join could be used to retrieve the list of all courses, along with the students enrolled in each course and their names. This would ensure that all courses are included, even if they don't have any enrolled students.
+indexing => like binary search
+CREATE INDEX index_name ON tableName(student_id)
+drop index table => ALTER TABLE tableName DROP INDEX indexName;
+
+Views in MySQL is nothing but a virtual table generated by the result of a SELECT query. A view is a concept rather than an actual table. View does not store any physical data rather it retrieves data from underlying base tables.

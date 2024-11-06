@@ -1,0 +1,1215 @@
+2024-07-29 20:30:57,186 DEBUG cd New-FrappeBench && python3 -m venv env
+2024-07-29 20:30:59,142 DEBUG cd New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade pip
+2024-07-29 20:31:00,683 DEBUG cd New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet wheel
+2024-07-29 20:31:01,632 LOG Getting frappe
+2024-07-29 20:31:01,632 DEBUG cd New-FrappeBench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-07-29 20:31:08,159 LOG Installing frappe
+2024-07-29 20:31:08,159 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/frappe 
+2024-07-29 20:31:50,759 DEBUG cd /home/kumkum/New-FrappeBench/apps/frappe && yarn install --check-files
+2024-07-29 20:32:35,827 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-29 20:32:35,827 DEBUG cd New-FrappeBench && bench build
+2024-07-29 20:32:35,905 INFO /home/kumkum/.local/bin/bench build
+2024-07-29 20:32:48,151 LOG setting up backups
+2024-07-29 20:32:48,162 LOG backups were set up
+2024-07-29 20:32:48,162 INFO Bench New-FrappeBench initialized
+2024-07-29 20:35:28,459 INFO /home/kumkum/.local/bin/bench new-site MySite
+2024-07-29 20:36:28,057 INFO /home/kumkum/.local/bin/bench use MySite
+2024-07-29 20:36:35,399 INFO /home/kumkum/.local/bin/bench start
+2024-07-29 20:36:35,612 INFO /home/kumkum/.local/bin/bench schedule
+2024-07-29 20:36:35,618 INFO /home/kumkum/.local/bin/bench worker
+2024-07-29 20:36:35,619 INFO /home/kumkum/.local/bin/bench watch
+2024-07-29 20:36:35,635 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-07-30 10:22:40,056 INFO /home/kumkum/.local/bin/bench start
+2024-07-30 10:22:40,284 INFO /home/kumkum/.local/bin/bench watch
+2024-07-30 10:22:40,287 INFO /home/kumkum/.local/bin/bench worker
+2024-07-30 10:22:40,318 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-07-30 10:22:40,324 INFO /home/kumkum/.local/bin/bench schedule
+2024-07-30 10:25:48,569 INFO /home/kumkum/.local/bin/bench start
+2024-07-30 10:25:48,808 INFO /home/kumkum/.local/bin/bench schedule
+2024-07-30 10:25:48,818 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-07-30 10:25:48,821 INFO /home/kumkum/.local/bin/bench worker
+2024-07-30 10:25:48,836 INFO /home/kumkum/.local/bin/bench watch
+2024-07-30 20:36:18,085 INFO /home/kumkum/.local/bin/bench --site New-FrappeBench
+2024-07-30 20:36:57,131 INFO /home/kumkum/.local/bin/bench --site New-FrappeBench mariadb
+2024-07-30 21:17:31,048 INFO /home/kumkum/.local/bin/bench --site New-PrappeBench mariadb
+2024-07-30 21:18:13,854 INFO /home/kumkum/.local/bin/bench --site New-FrappeBench mariadb
+2024-07-30 21:25:37,742 INFO /home/kumkum/.local/bin/bench --site Mysite mariadb
+2024-07-30 21:26:26,254 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-07-31 12:00:02,047 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-07-31 12:20:14,865 INFO /home/kumkum/.local/bin/bench start
+2024-07-31 12:20:15,090 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-07-31 12:20:15,133 INFO /home/kumkum/.local/bin/bench worker
+2024-07-31 12:20:15,136 INFO /home/kumkum/.local/bin/bench schedule
+2024-07-31 12:20:15,137 INFO /home/kumkum/.local/bin/bench watch
+2024-07-31 12:33:15,325 INFO /home/kumkum/.local/bin/bench new-app rentals
+2024-07-31 12:33:15,329 LOG creating new app rentals
+2024-07-31 12:35:44,811 LOG Installing rentals
+2024-07-31 12:35:44,813 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/rentals 
+2024-07-31 12:35:46,477 DEBUG bench build --app rentals
+2024-07-31 12:35:46,544 INFO /home/kumkum/.local/bin/bench build --app rentals
+2024-07-31 12:35:47,584 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-31 12:42:21,404 INFO /home/kumkum/.local/bin/bench --site MySite install-app rentals
+2024-07-31 12:45:35,823 INFO /home/kumkum/.local/bin/bench start
+2024-07-31 12:45:36,033 INFO /home/kumkum/.local/bin/bench worker
+2024-07-31 12:45:36,039 INFO /home/kumkum/.local/bin/bench watch
+2024-07-31 12:45:36,064 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-07-31 12:45:36,070 INFO /home/kumkum/.local/bin/bench schedule
+2024-07-31 15:28:23,324 INFO /home/kumkum/.local/bin/bench start
+2024-07-31 15:28:23,565 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-07-31 15:28:23,577 INFO /home/kumkum/.local/bin/bench schedule
+2024-07-31 15:28:23,591 INFO /home/kumkum/.local/bin/bench watch
+2024-07-31 15:28:23,594 INFO /home/kumkum/.local/bin/bench worker
+2024-08-01 10:10:15,624 INFO /home/kumkum/.local/bin/bench start
+2024-08-01 10:10:15,851 INFO /home/kumkum/.local/bin/bench worker
+2024-08-01 10:10:15,855 INFO /home/kumkum/.local/bin/bench watch
+2024-08-01 10:10:15,873 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-08-01 10:10:15,879 INFO /home/kumkum/.local/bin/bench schedule
+2024-08-01 10:52:29,760 INFO /home/kumkum/.local/bin/bench --site MySite set-config developer-mode 1
+2024-08-01 11:00:40,172 INFO /home/kumkum/.local/bin/bench start
+2024-08-01 11:00:40,361 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-08-01 11:00:40,369 INFO /home/kumkum/.local/bin/bench worker
+2024-08-01 11:00:40,400 INFO /home/kumkum/.local/bin/bench watch
+2024-08-01 11:00:40,406 INFO /home/kumkum/.local/bin/bench schedule
+2024-08-01 12:00:01,537 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-02 12:00:01,399 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-06 11:57:32,925 INFO /home/kumkum/.local/bin/bench start
+2024-08-06 11:57:33,137 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-08-06 11:57:33,140 INFO /home/kumkum/.local/bin/bench schedule
+2024-08-06 11:57:33,170 INFO /home/kumkum/.local/bin/bench watch
+2024-08-06 11:57:33,173 INFO /home/kumkum/.local/bin/bench worker
+2024-08-06 12:00:01,394 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-06 16:45:29,012 INFO /home/kumkum/.local/bin/bench start
+2024-08-06 16:45:29,243 INFO /home/kumkum/.local/bin/bench worker
+2024-08-06 16:45:29,250 INFO /home/kumkum/.local/bin/bench watch
+2024-08-06 16:45:29,271 INFO /home/kumkum/.local/bin/bench schedule
+2024-08-06 16:45:29,272 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-08-06 18:00:01,630 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-07 10:42:03,687 INFO /home/kumkum/.local/bin/bench start
+2024-08-07 10:42:04,344 INFO /home/kumkum/.local/bin/bench worker
+2024-08-07 10:42:04,410 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-08-07 10:42:04,426 INFO /home/kumkum/.local/bin/bench watch
+2024-08-07 10:42:04,486 INFO /home/kumkum/.local/bin/bench schedule
+2024-08-07 12:00:02,107 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-07 18:00:01,730 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-08 10:47:45,287 INFO /home/kumkum/.local/bin/bench new-site AirplaneTask
+2024-08-08 10:52:39,267 INFO /home/kumkum/.local/bin/bench --site AirplaneTask install-app frappe
+2024-08-08 10:53:03,089 INFO /home/kumkum/.local/bin/bench new-app airplane_mode
+2024-08-08 10:53:03,101 LOG creating new app airplane_mode
+2024-08-08 10:55:33,915 LOG Installing airplane_mode
+2024-08-08 10:55:33,918 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/airplane_mode 
+2024-08-08 10:55:38,486 DEBUG bench build --app airplane_mode
+2024-08-08 10:55:38,699 INFO /home/kumkum/.local/bin/bench build --app airplane_mode
+2024-08-08 10:55:41,763 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-08-08 10:56:29,129 INFO /home/kumkum/.local/bin/bench --site AirplaneTask install-app airplane_mode
+2024-08-08 10:57:39,522 INFO /home/kumkum/.local/bin/bench start
+2024-08-08 10:57:40,099 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-08-08 10:57:40,114 INFO /home/kumkum/.local/bin/bench schedule
+2024-08-08 10:57:40,236 INFO /home/kumkum/.local/bin/bench watch
+2024-08-08 10:57:40,246 INFO /home/kumkum/.local/bin/bench worker
+2024-08-08 11:13:51,123 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-08-08 11:13:54,525 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-08-08 11:14:02,118 INFO /home/kumkum/.local/bin/bench start
+2024-08-08 11:14:02,682 INFO /home/kumkum/.local/bin/bench watch
+2024-08-08 11:14:02,797 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-08-08 11:14:02,807 INFO /home/kumkum/.local/bin/bench schedule
+2024-08-08 11:14:02,816 INFO /home/kumkum/.local/bin/bench worker
+2024-08-08 12:00:01,452 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-08 19:34:55,964 INFO /home/kumkum/.local/bin/bench --site AirplaneTask install-app rentals
+2024-08-09 18:00:01,325 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-10 12:00:02,002 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-12 18:00:01,266 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-13 12:00:01,725 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-13 18:00:01,295 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-14 00:00:01,220 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-14 12:00:01,655 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-14 18:00:01,299 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-16 12:00:01,364 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-16 18:00:01,896 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-20 12:00:01,549 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-21 12:00:01,329 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-21 18:00:01,957 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-22 12:00:01,562 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-22 18:00:01,413 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-23 18:00:01,310 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-24 00:00:01,618 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-24 12:00:01,174 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-24 18:00:01,190 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-26 12:00:01,720 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-29 12:00:01,388 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-08-30 12:00:01,898 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-01 12:00:01,895 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-02 12:00:01,325 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-16 10:25:15,910 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 10:25:16,152 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 10:25:16,158 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 10:25:16,185 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 10:25:16,187 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 12:00:01,379 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-16 16:07:37,038 INFO /home/kumkum/.local/bin/bench --site rentals.local list
+2024-09-16 16:08:08,158 INFO /home/kumkum/.local/bin/bench --site assets.local list
+2024-09-16 16:08:15,271 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 16:08:15,504 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 16:08:15,509 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 16:08:15,510 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 16:08:15,539 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 16:14:42,042 INFO /home/kumkum/.local/bin/bench use assets.local
+2024-09-16 16:15:03,010 INFO /home/kumkum/.local/bin/bench use rentals.local
+2024-09-16 16:15:23,785 INFO /home/kumkum/.local/bin/bench use Rentals.local
+2024-09-16 16:19:48,499 INFO /home/kumkum/.local/bin/bench use MySite.local
+2024-09-16 16:26:36,448 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 16:26:36,667 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 16:26:36,669 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 16:26:36,702 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 16:26:36,707 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 16:30:10,112 INFO /home/kumkum/.local/bin/bench use MySite.local
+2024-09-16 16:45:23,060 INFO /home/kumkum/.local/bin/bench —site MySite add-to-hosts
+2024-09-16 16:46:39,804 INFO /home/kumkum/.local/bin/bench —site MySite add-to-hosts MySite.com:8000
+2024-09-16 16:47:57,919 INFO /home/kumkum/.local/bin/bench --site MySite add-to-hosts
+2024-09-16 16:49:40,887 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 16:49:41,112 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 16:49:41,122 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 16:49:41,139 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 16:49:41,152 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 18:00:01,577 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-16 18:18:09,209 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-09-16 18:33:21,909 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 18:33:22,233 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 18:33:22,245 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 18:33:22,250 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 18:33:22,257 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 18:35:16,282 INFO /home/kumkum/.local/bin/bench clear-cache
+2024-09-16 18:36:05,892 INFO /home/kumkum/.local/bin/bench --site MySite clear-cache
+2024-09-16 18:36:33,222 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 18:36:33,974 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 18:36:33,982 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 18:36:33,988 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 18:36:34,080 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 18:38:51,004 INFO /home/kumkum/.local/bin/bench —site MySite add-to-hosts
+2024-09-16 18:38:59,456 INFO /home/kumkum/.local/bin/bench --site MySite add-to-hosts
+2024-09-16 18:40:06,798 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 18:40:07,050 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 18:40:07,062 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 18:40:07,063 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 18:40:07,079 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 18:47:59,569 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 18:47:59,858 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 18:47:59,871 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 18:47:59,883 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 18:47:59,895 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 18:51:27,846 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-09-16 18:53:29,954 INFO /home/kumkum/.local/bin/bench use MySite
+2024-09-16 19:01:05,113 INFO /home/kumkum/.local/bin/bench new-site mysite.localhost
+2024-09-16 19:02:11,004 INFO /home/kumkum/.local/bin/bench use mysite.localhost
+2024-09-16 19:02:24,435 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 19:02:24,677 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 19:02:24,688 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 19:02:24,688 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 19:02:24,697 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 19:04:55,050 INFO /home/kumkum/.local/bin/bench --site mysite.localhost install-app rentals
+2024-09-16 19:09:03,998 INFO /home/kumkum/.local/bin/bench -site mysite.localhost mariadb
+2024-09-16 19:09:10,968 INFO /home/kumkum/.local/bin/bench --site mysite.localhost mariadb
+2024-09-16 19:10:44,715 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-09-16 19:12:24,608 INFO /home/kumkum/.local/bin/bench use MySite
+2024-09-16 19:15:35,992 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 19:15:36,313 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 19:15:36,319 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 19:15:36,320 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 19:15:36,322 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 19:23:23,116 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 19:23:23,361 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 19:23:23,362 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 19:23:23,365 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 19:23:23,370 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 19:31:07,455 INFO /home/kumkum/.local/bin/bench use Airplanetask
+2024-09-16 19:31:18,210 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-09-16 19:32:20,451 INFO /home/kumkum/.local/bin/bench use MySite
+2024-09-16 19:32:29,473 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 19:32:29,669 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 19:32:29,672 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 19:32:29,708 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 19:32:29,714 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 19:33:11,513 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-09-16 19:33:19,267 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 19:33:19,457 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 19:33:19,498 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 19:33:19,499 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 19:33:19,502 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 19:33:46,025 INFO /home/kumkum/.local/bin/bench use MySite
+2024-09-16 19:33:53,866 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 19:33:54,058 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 19:33:54,063 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 19:33:54,096 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 19:33:54,100 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 19:34:45,155 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 19:34:45,359 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 19:34:45,361 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 19:34:45,376 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 19:34:45,387 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 21:41:22,915 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 21:41:23,142 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 21:41:23,160 INFO /home/kumkum/.local/bin/bench worker
+2024-09-16 21:41:23,176 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 21:41:23,176 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 22:24:06,748 INFO /home/kumkum/.local/bin/bench start
+2024-09-16 22:24:06,997 INFO /home/kumkum/.local/bin/bench watch
+2024-09-16 22:24:07,012 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-16 22:24:07,015 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-16 22:24:07,033 INFO /home/kumkum/.local/bin/bench worker
+2024-09-17 10:31:47,955 INFO /home/kumkum/.local/bin/bench start
+2024-09-17 10:31:48,583 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-17 10:31:48,636 INFO /home/kumkum/.local/bin/bench worker
+2024-09-17 10:31:48,712 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-17 10:31:48,717 INFO /home/kumkum/.local/bin/bench watch
+2024-09-17 20:16:03,392 INFO /home/kumkum/.local/bin/bench --site Mysite mariadb
+2024-09-17 20:16:37,450 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-09-18 08:33:56,947 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 08:33:57,196 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 08:33:57,215 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 08:33:57,216 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 08:33:57,221 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 12:00:01,864 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-18 15:00:50,183 INFO /home/kumkum/.local/bin/bench new-app interview_managment_system_vrinda
+2024-09-18 15:00:50,188 LOG creating new app interview_managment_system_vrinda
+2024-09-18 15:05:10,568 LOG Installing interview_managment_system_vrinda
+2024-09-18 15:05:10,569 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/interview_managment_system_vrinda 
+2024-09-18 15:05:20,968 DEBUG bench build --app interview_managment_system_vrinda
+2024-09-18 15:05:21,081 INFO /home/kumkum/.local/bin/bench build --app interview_managment_system_vrinda
+2024-09-18 15:05:22,338 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-18 15:05:26,069 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:10:10,229 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_managment_system_vrinda
+2024-09-18 15:10:23,589 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 15:10:23,814 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 15:10:23,823 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 15:10:23,855 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 15:10:23,858 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 15:13:09,959 INFO /home/kumkum/.local/bin/bench get-app interview_managment_system_vrinda https://github.com/vrindawati/Interview-management-system-.git
+2024-09-18 15:13:09,967 LOG Getting Interview-management-system-
+2024-09-18 15:13:09,968 DEBUG cd ./apps && git clone https://github.com/vrindawati/Interview-management-system-.git  --depth 1 --origin upstream
+2024-09-18 15:13:11,786 LOG Installing interview_management_system
+2024-09-18 15:13:11,787 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/interview_management_system 
+2024-09-18 15:13:13,599 DEBUG bench build --app interview_management_system
+2024-09-18 15:13:13,681 INFO /home/kumkum/.local/bin/bench build --app interview_management_system
+2024-09-18 15:13:14,979 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-18 15:13:15,268 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:15:50,686 INFO /home/kumkum/.local/bin/bench get-app interview_managment_system_vrinda https://github.com/vrindawati/Interview-management-system-.git
+2024-09-18 15:15:50,693 LOG Getting Interview-management-system-
+2024-09-18 15:15:50,693 DEBUG cd ./apps && git clone https://github.com/vrindawati/Interview-management-system-.git  --depth 1 --origin upstream
+2024-09-18 15:15:52,337 WARNING /home/kumkum/.local/bin/bench get-app interview_managment_system_vrinda https://github.com/vrindawati/Interview-management-system-.git executed with exit code 1
+2024-09-18 15:15:53,029 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:18:32,013 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_managment_system
+2024-09-18 15:19:35,202 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 15:19:35,430 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 15:19:35,434 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 15:19:35,457 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 15:19:35,459 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 15:20:19,529 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 15:20:19,727 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 15:20:19,747 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 15:20:19,752 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 15:20:19,766 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 15:21:36,803 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 15:21:37,054 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 15:21:37,068 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 15:21:37,085 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 15:21:37,089 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 15:24:38,724 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 15:24:38,915 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 15:24:38,923 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 15:24:38,938 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 15:24:38,958 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 15:27:11,819 INFO /home/kumkum/.local/bin/bench --site Mysite uninstall-app interview_managment_system_vrinda
+2024-09-18 15:27:28,821 INFO /home/kumkum/.local/bin/bench --site MySite uninstall-app interview_managment_system_vrinda
+2024-09-18 15:28:38,598 INFO /home/kumkum/.local/bin/bench remove-app interview_managment_system_vrinda
+2024-09-18 15:28:38,678 INFO /home/kumkum/.local/bin/bench --site all list-apps --format json
+2024-09-18 15:28:39,162 INFO /home/kumkum/.local/bin/bench --site AirplaneTask list-apps
+2024-09-18 15:28:39,453 INFO /home/kumkum/.local/bin/bench --site MySite list-apps
+2024-09-18 15:28:39,751 INFO /home/kumkum/.local/bin/bench --site mysite.localhost list-apps
+2024-09-18 15:28:39,978 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip uninstall -y interview_managment_system_vrinda
+2024-09-18 15:28:40,445 INFO App moved from apps/interview_managment_system_vrinda to archived/apps/interview_managment_system_vrinda-2024-09-18
+2024-09-18 15:28:40,446 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-18 15:28:41,077 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:28:49,798 INFO /home/kumkum/.local/bin/bench remove-app interview_managment_system
+2024-09-18 15:28:49,802 WARNING /home/kumkum/.local/bin/bench remove-app interview_managment_system executed with exit code 1
+2024-09-18 15:28:50,321 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:29:25,412 INFO /home/kumkum/.local/bin/bench remove-app interview_management_system
+2024-09-18 15:29:25,495 INFO /home/kumkum/.local/bin/bench --site all list-apps --format json
+2024-09-18 15:29:25,807 INFO /home/kumkum/.local/bin/bench --site AirplaneTask list-apps
+2024-09-18 15:29:26,109 INFO /home/kumkum/.local/bin/bench --site MySite list-apps
+2024-09-18 15:29:26,428 INFO /home/kumkum/.local/bin/bench --site mysite.localhost list-apps
+2024-09-18 15:29:26,673 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip uninstall -y interview_management_system
+2024-09-18 15:29:27,084 INFO App moved from apps/interview_management_system to archived/apps/interview_management_system-2024-09-18
+2024-09-18 15:29:27,087 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-18 15:29:27,642 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:30:30,825 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_management_system
+2024-09-18 15:31:07,340 INFO /home/kumkum/.local/bin/bench remove-app interview-management-system
+2024-09-18 15:31:07,344 WARNING /home/kumkum/.local/bin/bench remove-app interview-management-system executed with exit code 1
+2024-09-18 15:31:09,468 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:31:13,705 INFO /home/kumkum/.local/bin/bench remove-app interview-management-system-
+2024-09-18 15:31:13,708 WARNING /home/kumkum/.local/bin/bench remove-app interview-management-system- executed with exit code 1
+2024-09-18 15:31:14,174 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:31:40,118 INFO /home/kumkum/.local/bin/bench remove-app Interview-management-system-
+2024-09-18 15:31:40,197 INFO /home/kumkum/.local/bin/bench --site all list-apps --format json
+2024-09-18 15:31:40,511 INFO /home/kumkum/.local/bin/bench --site AirplaneTask list-apps
+2024-09-18 15:31:40,810 INFO /home/kumkum/.local/bin/bench --site MySite list-apps
+2024-09-18 15:31:41,017 WARNING /home/kumkum/.local/bin/bench remove-app Interview-management-system- executed with exit code 1
+2024-09-18 15:31:41,622 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:32:46,923 INFO /home/kumkum/.local/bin/bench remove-app Interview-management-system-
+2024-09-18 15:32:47,017 INFO /home/kumkum/.local/bin/bench --site all list-apps --format json
+2024-09-18 15:32:47,323 INFO /home/kumkum/.local/bin/bench --site AirplaneTask list-apps
+2024-09-18 15:32:47,618 INFO /home/kumkum/.local/bin/bench --site MySite list-apps
+2024-09-18 15:32:47,825 WARNING /home/kumkum/.local/bin/bench remove-app Interview-management-system- executed with exit code 1
+2024-09-18 15:33:25,980 INFO /home/kumkum/.local/bin/bench remove-app Interview-management-system
+2024-09-18 15:33:25,983 WARNING /home/kumkum/.local/bin/bench remove-app Interview-management-system executed with exit code 1
+2024-09-18 15:33:26,459 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:33:34,642 INFO /home/kumkum/.local/bin/bench remove-app Interview-management-system-
+2024-09-18 15:33:34,721 INFO /home/kumkum/.local/bin/bench --site all list-apps --format json
+2024-09-18 15:33:35,024 INFO /home/kumkum/.local/bin/bench --site AirplaneTask list-apps
+2024-09-18 15:33:35,332 INFO /home/kumkum/.local/bin/bench --site MySite list-apps
+2024-09-18 15:33:35,542 WARNING /home/kumkum/.local/bin/bench remove-app Interview-management-system- executed with exit code 1
+2024-09-18 15:33:36,691 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:36:16,146 INFO /home/kumkum/.local/bin/bench remove-app Interview-management-system-
+2024-09-18 15:36:16,228 INFO /home/kumkum/.local/bin/bench --site all list-apps --format json
+2024-09-18 15:36:16,528 INFO /home/kumkum/.local/bin/bench --site AirplaneTask list-apps
+2024-09-18 15:36:16,832 INFO /home/kumkum/.local/bin/bench --site MySite list-apps
+2024-09-18 15:36:17,044 WARNING /home/kumkum/.local/bin/bench remove-app Interview-management-system- executed with exit code 1
+2024-09-18 15:40:13,082 INFO /home/kumkum/.local/bin/bench --site MySite install-app Interview-management-system-
+2024-09-18 15:41:51,174 INFO /home/kumkum/.local/bin/bench --site MySite install-app Interview-management-system-
+2024-09-18 15:56:29,774 INFO /home/kumkum/.local/bin/bench new-app interview_task
+2024-09-18 15:56:29,779 LOG creating new app interview_task
+2024-09-18 15:58:00,026 LOG Installing interview_task
+2024-09-18 15:58:00,027 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/interview_task 
+2024-09-18 15:58:01,955 DEBUG bench build --app interview_task
+2024-09-18 15:58:02,037 INFO /home/kumkum/.local/bin/bench build --app interview_task
+2024-09-18 15:58:02,276 WARNING bench build --app interview_task executed with exit code 1
+2024-09-18 15:58:02,276 WARNING /home/kumkum/.local/bin/bench new-app interview_task executed with exit code 1
+2024-09-18 15:58:02,816 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 15:59:01,928 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_task
+2024-09-18 15:59:52,507 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_task
+2024-09-18 16:02:32,976 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_task
+2024-09-18 16:05:56,248 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_task
+2024-09-18 16:06:40,260 INFO /home/kumkum/.local/bin/bench --site MySite install-app Interview-management-system-
+2024-09-18 16:07:24,077 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_task
+2024-09-18 16:07:47,944 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_management_system
+2024-09-18 17:01:43,622 INFO /home/kumkum/.local/bin/bench --site MySite uninstall-app interview_task
+2024-09-18 17:02:52,075 INFO /home/kumkum/.local/bin/bench --site MySite uninstall-app interview_managment_sysytem
+2024-09-18 17:05:13,672 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:05:14,422 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:05:14,426 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:05:14,555 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:05:14,565 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:05:23,411 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:05:23,956 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:05:23,957 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:05:24,082 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:05:24,119 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:07:59,451 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:08:00,103 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:08:00,168 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:08:00,182 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:08:00,223 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:09:39,665 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:09:40,223 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:09:40,228 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:09:40,366 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:09:40,373 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:10:11,439 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:10:11,979 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:10:12,024 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:10:12,135 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:10:12,137 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:25:50,200 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:25:50,957 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:25:50,968 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:25:50,989 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:25:51,049 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:26:58,513 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:26:59,196 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:26:59,297 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:26:59,303 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:26:59,308 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:30:14,728 INFO /home/kumkum/.local/bin/bench get-app https://github.com/vrindawati/Interview-management-system-.git
+2024-09-18 17:30:14,751 LOG Getting Interview-management-system-
+2024-09-18 17:30:14,751 DEBUG cd ./apps && git clone https://github.com/vrindawati/Interview-management-system-.git  --depth 1 --origin upstream
+2024-09-18 17:30:16,439 LOG Installing interview_management_system
+2024-09-18 17:30:16,440 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/interview_management_system 
+2024-09-18 17:30:21,949 DEBUG bench build --app interview_management_system
+2024-09-18 17:30:22,264 INFO /home/kumkum/.local/bin/bench build --app interview_management_system
+2024-09-18 17:30:26,817 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-18 17:30:28,811 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 17:32:09,446 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_management_system
+2024-09-18 17:32:28,196 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:32:28,854 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:32:28,926 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:32:28,999 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:32:28,999 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:39:01,282 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:39:02,074 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:39:02,074 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 17:39:02,156 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:39:02,203 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:40:45,120 INFO /home/kumkum/.local/bin/bench new-app interview_task
+2024-09-18 17:40:45,131 LOG creating new app interview_task
+2024-09-18 17:41:58,352 LOG Installing interview_task
+2024-09-18 17:41:58,355 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/interview_task 
+2024-09-18 17:42:04,032 DEBUG bench build --app interview_task
+2024-09-18 17:42:04,295 INFO /home/kumkum/.local/bin/bench build --app interview_task
+2024-09-18 17:42:08,337 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-18 17:42:08,788 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-09-18 17:42:41,346 INFO /home/kumkum/.local/bin/bench --site MySite install-app interview_task
+2024-09-18 17:43:13,523 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 17:43:14,237 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 17:43:14,304 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 17:43:14,322 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 17:43:14,341 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 18:52:18,603 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-18 18:52:34,119 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 18:52:34,900 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 18:52:34,929 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 18:52:35,013 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 18:52:35,061 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 18:52:53,769 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-18 21:20:16,025 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 21:20:16,637 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 21:20:16,672 INFO /home/kumkum/.local/bin/bench worker
+2024-09-18 21:20:16,714 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 21:20:16,779 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 23:16:23,344 INFO /home/kumkum/.local/bin/bench start
+2024-09-18 23:16:23,934 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-18 23:16:23,948 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-18 23:16:24,072 INFO /home/kumkum/.local/bin/bench watch
+2024-09-18 23:16:24,072 INFO /home/kumkum/.local/bin/bench worker
+2024-09-19 08:16:48,898 INFO /home/kumkum/.local/bin/bench start
+2024-09-19 08:16:49,518 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-19 08:16:49,606 INFO /home/kumkum/.local/bin/bench watch
+2024-09-19 08:16:49,654 INFO /home/kumkum/.local/bin/bench worker
+2024-09-19 08:16:49,656 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-19 12:00:01,739 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-19 20:37:38,386 INFO /home/kumkum/.local/bin/bench start
+2024-09-19 20:37:38,597 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-19 20:37:38,602 INFO /home/kumkum/.local/bin/bench watch
+2024-09-19 20:37:38,634 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-19 20:37:38,638 INFO /home/kumkum/.local/bin/bench worker
+2024-09-20 09:21:42,931 INFO /home/kumkum/.local/bin/bench start
+2024-09-20 09:21:43,197 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-20 09:21:43,198 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-20 09:21:43,221 INFO /home/kumkum/.local/bin/bench worker
+2024-09-20 09:21:43,231 INFO /home/kumkum/.local/bin/bench watch
+2024-09-20 12:00:01,229 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-20 18:00:01,316 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-21 00:00:01,484 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-21 07:48:55,462 INFO /home/kumkum/.local/bin/bench start
+2024-09-21 07:48:55,677 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-21 07:48:55,695 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-21 07:48:55,702 INFO /home/kumkum/.local/bin/bench watch
+2024-09-21 07:48:55,723 INFO /home/kumkum/.local/bin/bench worker
+2024-09-21 12:00:01,936 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-22 00:00:01,163 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-22 13:07:34,237 INFO /home/kumkum/.local/bin/bench start
+2024-09-22 13:07:34,482 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-22 13:07:34,496 INFO /home/kumkum/.local/bin/bench watch
+2024-09-22 13:07:34,501 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-22 13:07:34,507 INFO /home/kumkum/.local/bin/bench worker
+2024-09-22 13:17:35,160 INFO /home/kumkum/.local/bin/bench --site New-FrappeBench console
+2024-09-22 13:18:35,015 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-09-22 14:50:41,178 INFO /home/kumkum/.local/bin/bench start
+2024-09-22 14:50:41,363 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-22 14:50:41,363 INFO /home/kumkum/.local/bin/bench watch
+2024-09-22 14:50:41,404 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-22 14:50:41,410 INFO /home/kumkum/.local/bin/bench worker
+2024-09-22 14:59:47,065 INFO /home/kumkum/.local/bin/bench start
+2024-09-22 14:59:47,260 INFO /home/kumkum/.local/bin/bench watch
+2024-09-22 14:59:47,285 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-22 14:59:47,294 INFO /home/kumkum/.local/bin/bench worker
+2024-09-22 14:59:47,304 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-22 15:04:29,487 INFO /home/kumkum/.local/bin/bench start
+2024-09-22 15:04:29,693 INFO /home/kumkum/.local/bin/bench watch
+2024-09-22 15:04:29,714 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-22 15:04:29,718 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-22 15:04:29,724 INFO /home/kumkum/.local/bin/bench worker
+2024-09-22 15:15:21,045 INFO /home/kumkum/.local/bin/bench start
+2024-09-22 15:15:21,233 INFO /home/kumkum/.local/bin/bench watch
+2024-09-22 15:15:21,242 INFO /home/kumkum/.local/bin/bench worker
+2024-09-22 15:15:21,277 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-22 15:15:21,280 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-22 22:18:44,649 INFO /home/kumkum/.local/bin/bench start
+2024-09-22 22:18:45,524 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-22 22:18:45,547 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-22 22:18:45,630 INFO /home/kumkum/.local/bin/bench watch
+2024-09-22 22:18:45,652 INFO /home/kumkum/.local/bin/bench worker
+2024-09-23 10:26:46,369 INFO /home/kumkum/.local/bin/bench start
+2024-09-23 10:26:46,952 INFO /home/kumkum/.local/bin/bench worker
+2024-09-23 10:26:46,972 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-23 10:26:47,064 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-23 10:26:47,099 INFO /home/kumkum/.local/bin/bench watch
+2024-09-23 12:00:01,736 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-23 20:25:41,317 INFO /home/kumkum/.local/bin/bench start
+2024-09-23 20:25:41,920 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-23 20:25:42,029 INFO /home/kumkum/.local/bin/bench watch
+2024-09-23 20:25:42,056 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-23 20:25:42,071 INFO /home/kumkum/.local/bin/bench worker
+2024-09-24 10:08:54,450 INFO /home/kumkum/.local/bin/bench start
+2024-09-24 10:08:54,661 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-24 10:08:54,674 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-24 10:08:54,678 INFO /home/kumkum/.local/bin/bench worker
+2024-09-24 10:08:54,695 INFO /home/kumkum/.local/bin/bench watch
+2024-09-24 12:00:01,307 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-24 14:17:04,027 INFO /home/kumkum/.local/bin/bench start
+2024-09-24 14:17:04,625 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-24 14:17:04,635 INFO /home/kumkum/.local/bin/bench worker
+2024-09-24 14:17:04,676 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-24 14:17:04,751 INFO /home/kumkum/.local/bin/bench watch
+2024-09-25 10:10:59,047 INFO /home/kumkum/.local/bin/bench start
+2024-09-25 10:10:59,270 INFO /home/kumkum/.local/bin/bench watch
+2024-09-25 10:10:59,279 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-25 10:10:59,296 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-25 10:10:59,308 INFO /home/kumkum/.local/bin/bench worker
+2024-09-25 12:00:01,397 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-25 16:34:10,842 INFO /home/kumkum/.local/bin/bench start
+2024-09-25 16:34:11,065 INFO /home/kumkum/.local/bin/bench worker
+2024-09-25 16:34:11,070 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-25 16:34:11,096 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-25 16:34:11,101 INFO /home/kumkum/.local/bin/bench watch
+2024-09-25 16:37:34,295 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-09-25 16:37:42,843 INFO /home/kumkum/.local/bin/bench start
+2024-09-25 16:37:43,048 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-25 16:37:43,056 INFO /home/kumkum/.local/bin/bench worker
+2024-09-25 16:37:43,068 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-25 16:37:43,079 INFO /home/kumkum/.local/bin/bench watch
+2024-09-25 19:28:35,809 INFO /home/kumkum/.local/bin/bench start
+2024-09-25 19:28:36,026 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-25 19:28:36,026 INFO /home/kumkum/.local/bin/bench worker
+2024-09-25 19:28:36,066 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-25 19:28:36,066 INFO /home/kumkum/.local/bin/bench watch
+2024-09-25 20:56:46,577 INFO /home/kumkum/.local/bin/bench start
+2024-09-25 20:56:46,782 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-25 20:56:46,802 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-25 20:56:46,808 INFO /home/kumkum/.local/bin/bench worker
+2024-09-25 20:56:46,826 INFO /home/kumkum/.local/bin/bench watch
+2024-09-26 08:45:06,620 INFO /home/kumkum/.local/bin/bench start
+2024-09-26 08:45:06,844 INFO /home/kumkum/.local/bin/bench worker
+2024-09-26 08:45:06,846 INFO /home/kumkum/.local/bin/bench watch
+2024-09-26 08:45:06,873 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-26 08:45:06,877 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-26 12:00:01,172 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-26 15:02:54,210 INFO /home/kumkum/.local/bin/bench start
+2024-09-26 15:02:54,429 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-26 15:02:54,433 INFO /home/kumkum/.local/bin/bench watch
+2024-09-26 15:02:54,469 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-26 15:02:54,475 INFO /home/kumkum/.local/bin/bench worker
+2024-09-26 16:21:53,477 INFO /home/kumkum/.local/bin/bench start
+2024-09-26 16:21:54,069 INFO /home/kumkum/.local/bin/bench worker
+2024-09-26 16:21:54,091 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-26 16:21:54,168 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-26 16:21:54,200 INFO /home/kumkum/.local/bin/bench watch
+2024-09-26 21:33:17,379 INFO /home/kumkum/.local/bin/bench start
+2024-09-26 21:33:17,591 INFO /home/kumkum/.local/bin/bench worker
+2024-09-26 21:33:17,605 INFO /home/kumkum/.local/bin/bench watch
+2024-09-26 21:33:17,614 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-26 21:33:17,628 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-27 09:46:30,130 INFO /home/kumkum/.local/bin/bench start
+2024-09-27 09:46:30,379 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-27 09:46:30,385 INFO /home/kumkum/.local/bin/bench watch
+2024-09-27 09:46:30,386 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-27 09:46:30,390 INFO /home/kumkum/.local/bin/bench worker
+2024-09-27 10:27:04,749 INFO /home/kumkum/.local/bin/bench start
+2024-09-27 10:27:05,331 INFO /home/kumkum/.local/bin/bench worker
+2024-09-27 10:27:05,334 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-27 10:27:05,483 INFO /home/kumkum/.local/bin/bench watch
+2024-09-27 10:27:05,484 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-27 12:00:01,506 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-27 14:45:07,858 INFO /home/kumkum/.local/bin/bench start
+2024-09-27 14:45:08,076 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-27 14:45:08,080 INFO /home/kumkum/.local/bin/bench worker
+2024-09-27 14:45:08,097 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-27 14:45:08,105 INFO /home/kumkum/.local/bin/bench watch
+2024-09-27 17:27:50,555 INFO /home/kumkum/.local/bin/bench start
+2024-09-27 17:27:50,769 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-27 17:27:50,772 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-27 17:27:50,800 INFO /home/kumkum/.local/bin/bench worker
+2024-09-27 17:27:50,803 INFO /home/kumkum/.local/bin/bench watch
+2024-09-27 18:00:02,072 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-27 19:45:06,690 INFO /home/kumkum/.local/bin/bench clear-website cache
+2024-09-27 19:45:45,644 INFO /home/kumkum/.local/bin/bench clear-website-cache
+2024-09-27 19:47:26,680 INFO /home/kumkum/.local/bin/bench clear-website-cache
+2024-09-27 19:48:15,271 INFO /home/kumkum/.local/bin/bench start
+2024-09-27 19:48:15,599 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-27 19:48:15,619 INFO /home/kumkum/.local/bin/bench worker
+2024-09-27 19:48:15,625 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-27 19:48:15,634 INFO /home/kumkum/.local/bin/bench watch
+2024-09-27 19:51:17,852 INFO /home/kumkum/.local/bin/bench build
+2024-09-27 21:36:03,763 INFO /home/kumkum/.local/bin/bench build
+2024-09-27 21:36:35,226 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-27 21:40:21,007 INFO /home/kumkum/.local/bin/bench start
+2024-09-27 21:40:21,298 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-27 21:40:21,308 INFO /home/kumkum/.local/bin/bench watch
+2024-09-27 21:40:21,322 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-27 21:40:21,327 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 09:36:03,474 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 09:36:03,692 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 09:36:03,709 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 09:36:03,730 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 09:36:03,734 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 12:00:01,149 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-28 12:46:21,944 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-28 12:46:33,703 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 12:46:33,935 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 12:46:33,935 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 12:46:33,973 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 12:46:33,978 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 13:10:18,976 INFO /home/kumkum/.local/bin/bench --site AirplaneTask mariadb
+2024-09-28 13:14:08,542 INFO /home/kumkum/.local/bin/bench --site console
+2024-09-28 13:14:25,470 INFO /home/kumkum/.local/bin/bench --site AirplaneTask console
+2024-09-28 14:16:09,967 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-28 14:16:19,709 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 14:16:19,926 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 14:16:19,940 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 14:16:19,961 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 14:16:19,972 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 14:28:11,306 INFO /home/kumkum/.local/bin/bench --site AirplaneTask console
+2024-09-28 16:36:49,006 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 16:36:49,237 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 16:36:49,237 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 16:36:49,254 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 16:36:49,263 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 17:19:34,386 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 17:19:34,610 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 17:19:34,611 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 17:19:34,632 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 17:19:34,649 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 18:00:01,277 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-28 18:54:58,560 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-28 18:55:09,207 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 18:55:09,430 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 18:55:09,435 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 18:55:09,466 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 18:55:09,473 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 20:52:57,261 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 20:52:57,477 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 20:52:57,477 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 20:52:57,511 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 20:52:57,517 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 21:33:19,466 INFO /home/kumkum/.local/bin/bench use MySite
+2024-09-28 21:33:26,764 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 21:33:26,952 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 21:33:26,970 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 21:33:26,994 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 21:33:26,995 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 21:41:54,446 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-28 21:43:09,737 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 21:43:09,968 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 21:43:09,982 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 21:43:09,982 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 21:43:09,988 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 22:01:01,094 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 22:01:01,668 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 22:01:01,747 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 22:01:01,762 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 22:01:01,820 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 22:03:11,507 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-09-28 22:03:19,926 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 22:03:20,480 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 22:03:20,499 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 22:03:20,633 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-28 22:03:20,642 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 23:07:10,786 INFO /home/kumkum/.local/bin/bench start
+2024-09-28 23:07:11,384 INFO /home/kumkum/.local/bin/bench watch
+2024-09-28 23:07:11,401 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-28 23:07:11,521 INFO /home/kumkum/.local/bin/bench worker
+2024-09-28 23:07:11,526 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-29 00:00:01,371 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-29 09:29:32,941 INFO /home/kumkum/.local/bin/bench start
+2024-09-29 09:29:33,147 INFO /home/kumkum/.local/bin/bench watch
+2024-09-29 09:29:33,151 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-29 09:29:33,188 INFO /home/kumkum/.local/bin/bench worker
+2024-09-29 09:29:33,189 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-30 10:20:47,538 INFO /home/kumkum/.local/bin/bench start
+2024-09-30 10:20:47,793 INFO /home/kumkum/.local/bin/bench watch
+2024-09-30 10:20:47,796 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-30 10:20:47,828 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-30 10:20:47,837 INFO /home/kumkum/.local/bin/bench worker
+2024-09-30 10:32:30,530 INFO /home/kumkum/.local/bin/bench use MySite
+2024-09-30 10:32:36,428 INFO /home/kumkum/.local/bin/bench start
+2024-09-30 10:32:36,670 INFO /home/kumkum/.local/bin/bench worker
+2024-09-30 10:32:36,680 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-30 10:32:36,705 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-30 10:32:36,712 INFO /home/kumkum/.local/bin/bench watch
+2024-09-30 11:00:17,586 INFO /home/kumkum/.local/bin/bench clear-cache
+2024-09-30 11:00:29,618 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-30 11:41:16,652 INFO /home/kumkum/.local/bin/bench migrate
+2024-09-30 11:48:42,417 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-09-30 11:58:58,324 INFO /home/kumkum/.local/bin/bench build
+2024-09-30 12:00:01,798 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-09-30 12:00:15,157 INFO /home/kumkum/.local/bin/bench start
+2024-09-30 12:00:15,434 INFO /home/kumkum/.local/bin/bench watch
+2024-09-30 12:00:15,438 INFO /home/kumkum/.local/bin/bench worker
+2024-09-30 12:00:15,448 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-30 12:00:15,452 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-30 12:57:56,736 INFO /home/kumkum/.local/bin/bench use AirplanTask
+2024-09-30 12:58:16,717 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-09-30 12:58:23,394 INFO /home/kumkum/.local/bin/bench start
+2024-09-30 12:58:23,683 INFO /home/kumkum/.local/bin/bench watch
+2024-09-30 12:58:23,711 INFO /home/kumkum/.local/bin/bench schedule
+2024-09-30 12:58:23,714 INFO /home/kumkum/.local/bin/bench worker
+2024-09-30 12:58:23,714 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-09-30 13:01:20,137 INFO /home/kumkum/.local/bin/bench --site AirplaneTask mariadb
+2024-09-30 18:00:02,104 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-01 09:33:15,020 INFO /home/kumkum/.local/bin/bench start
+2024-10-01 09:33:15,225 INFO /home/kumkum/.local/bin/bench watch
+2024-10-01 09:33:15,227 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-01 09:33:15,266 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-01 09:33:15,269 INFO /home/kumkum/.local/bin/bench worker
+2024-10-01 09:39:19,014 INFO /home/kumkum/.local/bin/bench use MySite
+2024-10-01 09:39:24,807 INFO /home/kumkum/.local/bin/bench start
+2024-10-01 09:39:25,017 INFO /home/kumkum/.local/bin/bench watch
+2024-10-01 09:39:25,026 INFO /home/kumkum/.local/bin/bench worker
+2024-10-01 09:39:25,028 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-01 09:39:25,044 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-01 11:15:20,495 INFO /home/kumkum/.local/bin/bench clear-cache
+2024-10-01 11:15:28,003 INFO /home/kumkum/.local/bin/bench start
+2024-10-01 11:15:28,232 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-01 11:15:28,236 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-01 11:15:28,261 INFO /home/kumkum/.local/bin/bench worker
+2024-10-01 11:15:28,268 INFO /home/kumkum/.local/bin/bench watch
+2024-10-01 13:09:22,333 INFO /home/kumkum/.local/bin/bench clear-cache
+2024-10-01 13:09:28,302 INFO /home/kumkum/.local/bin/bench start
+2024-10-01 13:09:28,532 INFO /home/kumkum/.local/bin/bench watch
+2024-10-01 13:09:28,553 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-01 13:09:28,566 INFO /home/kumkum/.local/bin/bench worker
+2024-10-01 13:09:28,574 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-01 18:00:01,488 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-01 22:24:26,505 INFO /home/kumkum/.local/bin/bench start
+2024-10-01 22:24:27,387 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-01 22:24:27,488 INFO /home/kumkum/.local/bin/bench watch
+2024-10-01 22:24:27,493 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-01 22:24:27,536 INFO /home/kumkum/.local/bin/bench worker
+2024-10-02 00:00:02,097 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-02 08:39:13,382 INFO /home/kumkum/.local/bin/bench start
+2024-10-02 08:39:13,604 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-02 08:39:13,616 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-02 08:39:13,639 INFO /home/kumkum/.local/bin/bench watch
+2024-10-02 08:39:13,646 INFO /home/kumkum/.local/bin/bench worker
+2024-10-02 08:41:09,119 INFO /home/kumkum/.local/bin/bench use Airplanetask
+2024-10-02 08:41:17,346 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-10-02 08:41:23,269 INFO /home/kumkum/.local/bin/bench start
+2024-10-02 08:41:23,502 INFO /home/kumkum/.local/bin/bench watch
+2024-10-02 08:41:23,525 INFO /home/kumkum/.local/bin/bench worker
+2024-10-02 08:41:23,531 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-02 08:41:23,536 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-02 12:00:01,863 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-02 12:09:16,207 INFO /home/kumkum/.local/bin/bench start
+2024-10-02 12:09:16,420 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-02 12:09:16,424 INFO /home/kumkum/.local/bin/bench worker
+2024-10-02 12:09:16,458 INFO /home/kumkum/.local/bin/bench watch
+2024-10-02 12:09:16,461 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-02 12:12:41,859 INFO /home/kumkum/.local/bin/bench use MySite
+2024-10-02 12:12:52,207 INFO /home/kumkum/.local/bin/bench start
+2024-10-02 12:12:52,416 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-02 12:12:52,449 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-02 12:12:52,454 INFO /home/kumkum/.local/bin/bench watch
+2024-10-02 12:12:52,455 INFO /home/kumkum/.local/bin/bench worker
+2024-10-02 12:25:57,594 INFO /home/kumkum/.local/bin/bench console
+2024-10-02 12:29:09,050 INFO /home/kumkum/.local/bin/bench console
+2024-10-02 12:40:07,142 INFO /home/kumkum/.local/bin/bench start
+2024-10-02 12:40:07,339 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-02 12:40:07,344 INFO /home/kumkum/.local/bin/bench worker
+2024-10-02 12:40:07,375 INFO /home/kumkum/.local/bin/bench watch
+2024-10-02 12:40:07,377 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-02 12:56:29,701 INFO /home/kumkum/.local/bin/bench --site mysite console
+2024-10-02 12:56:45,181 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-02 13:04:57,610 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-02 14:14:56,024 INFO /home/kumkum/.local/bin/bench clear-cache
+2024-10-02 16:35:24,864 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-10-02 22:20:34,680 INFO /home/kumkum/.local/bin/bench start
+2024-10-02 22:20:34,906 INFO /home/kumkum/.local/bin/bench watch
+2024-10-02 22:20:34,916 INFO /home/kumkum/.local/bin/bench worker
+2024-10-02 22:20:34,933 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-02 22:20:34,938 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-02 22:20:48,390 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-10-02 22:21:22,172 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-03 10:11:20,940 INFO /home/kumkum/.local/bin/bench start
+2024-10-03 10:11:21,160 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-03 10:11:21,172 INFO /home/kumkum/.local/bin/bench worker
+2024-10-03 10:11:21,188 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-03 10:11:21,199 INFO /home/kumkum/.local/bin/bench watch
+2024-10-03 12:30:00,980 INFO /home/kumkum/.local/bin/bench start
+2024-10-03 12:30:01,201 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-03 12:30:01,204 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-03 12:30:01,236 INFO /home/kumkum/.local/bin/bench watch
+2024-10-03 12:30:01,243 INFO /home/kumkum/.local/bin/bench worker
+2024-10-03 15:53:26,361 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-03 17:10:12,046 INFO /home/kumkum/.local/bin/bench start
+2024-10-03 17:10:12,326 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-03 17:10:12,331 INFO /home/kumkum/.local/bin/bench watch
+2024-10-03 17:10:12,336 INFO /home/kumkum/.local/bin/bench worker
+2024-10-03 17:10:12,340 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-03 18:28:00,915 INFO /home/kumkum/.local/bin/bench start
+2024-10-03 18:28:01,298 INFO /home/kumkum/.local/bin/bench worker
+2024-10-03 18:28:01,299 INFO /home/kumkum/.local/bin/bench watch
+2024-10-03 18:28:01,313 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-03 18:28:01,324 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-03 18:32:29,181 INFO /home/kumkum/.local/bin/bench start
+2024-10-03 18:32:29,461 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-03 18:32:29,486 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-03 18:32:29,493 INFO /home/kumkum/.local/bin/bench watch
+2024-10-03 18:32:29,496 INFO /home/kumkum/.local/bin/bench worker
+2024-10-04 17:18:18,148 INFO /home/kumkum/.local/bin/bench start
+2024-10-04 17:18:18,364 INFO /home/kumkum/.local/bin/bench watch
+2024-10-04 17:18:18,370 INFO /home/kumkum/.local/bin/bench worker
+2024-10-04 17:18:18,386 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-04 17:18:18,403 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-04 17:19:16,308 INFO /home/kumkum/.local/bin/bench start
+2024-10-04 17:19:16,560 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-04 17:19:16,563 INFO /home/kumkum/.local/bin/bench watch
+2024-10-04 17:19:16,584 INFO /home/kumkum/.local/bin/bench worker
+2024-10-04 17:19:16,588 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-04 17:20:10,027 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-04 17:30:18,977 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-04 19:46:57,447 INFO /home/kumkum/.local/bin/bench start
+2024-10-04 19:46:57,676 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-04 19:46:57,693 INFO /home/kumkum/.local/bin/bench worker
+2024-10-04 19:46:57,694 INFO /home/kumkum/.local/bin/bench watch
+2024-10-04 19:46:57,709 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-05 09:50:05,070 INFO /home/kumkum/.local/bin/bench start
+2024-10-05 09:50:05,312 INFO /home/kumkum/.local/bin/bench watch
+2024-10-05 09:50:05,320 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-05 09:50:05,331 INFO /home/kumkum/.local/bin/bench worker
+2024-10-05 09:50:05,335 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-05 09:51:58,511 INFO /home/kumkum/.local/bin/bench --site Mysite console
+2024-10-05 09:52:06,519 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-05 10:07:03,419 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-05 10:11:31,296 INFO /home/kumkum/.local/bin/bench --site MySite console
+2024-10-05 11:36:31,127 INFO /home/kumkum/.local/bin/bench new-app ExpenseManager
+2024-10-05 11:36:31,131 LOG creating new app expensemanager
+2024-10-05 11:38:15,438 LOG Installing expensemanager
+2024-10-05 11:38:15,439 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/expensemanager 
+2024-10-05 11:38:18,641 DEBUG bench build --app expensemanager
+2024-10-05 11:38:18,717 INFO /home/kumkum/.local/bin/bench build --app expensemanager
+2024-10-05 11:38:19,959 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-05 11:38:20,863 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-05 11:39:41,487 INFO /home/kumkum/.local/bin/bench start
+2024-10-05 11:39:41,723 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-05 11:39:41,727 INFO /home/kumkum/.local/bin/bench worker
+2024-10-05 11:39:41,752 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-05 11:39:41,753 INFO /home/kumkum/.local/bin/bench watch
+2024-10-05 11:41:00,113 INFO /home/kumkum/.local/bin/bench --site MySite install-app ExpenseManager
+2024-10-05 11:41:16,647 INFO /home/kumkum/.local/bin/bench --site MySite install-app expensemanager
+2024-10-05 11:41:26,448 INFO /home/kumkum/.local/bin/bench start
+2024-10-05 11:41:26,661 INFO /home/kumkum/.local/bin/bench watch
+2024-10-05 11:41:26,663 INFO /home/kumkum/.local/bin/bench worker
+2024-10-05 11:41:26,695 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-05 11:41:26,697 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-05 12:00:01,892 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-05 16:28:34,493 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-05 16:30:52,159 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-05 16:41:04,975 INFO /home/kumkum/.local/bin/bench build
+2024-10-05 16:41:26,205 INFO /home/kumkum/.local/bin/bench start
+2024-10-05 16:41:26,430 INFO /home/kumkum/.local/bin/bench worker
+2024-10-05 16:41:26,435 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-05 16:41:26,462 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-05 16:41:26,466 INFO /home/kumkum/.local/bin/bench watch
+2024-10-05 20:42:57,657 INFO /home/kumkum/.local/bin/bench start
+2024-10-05 20:42:57,904 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-05 20:42:57,919 INFO /home/kumkum/.local/bin/bench worker
+2024-10-05 20:42:57,921 INFO /home/kumkum/.local/bin/bench watch
+2024-10-05 20:42:57,921 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-06 00:00:01,180 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-06 15:13:32,027 INFO /home/kumkum/.local/bin/bench start
+2024-10-06 15:13:32,657 INFO /home/kumkum/.local/bin/bench worker
+2024-10-06 15:13:32,716 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-06 15:13:32,756 INFO /home/kumkum/.local/bin/bench worker
+2024-10-06 15:13:32,801 INFO /home/kumkum/.local/bin/bench watch
+2024-10-06 15:13:32,804 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-06 15:24:10,741 INFO /home/kumkum/.local/bin/bench --site MySite migrate
+2024-10-08 12:00:01,255 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-08 18:00:01,748 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-08 18:28:58,845 INFO /home/kumkum/.local/bin/bench start
+2024-10-08 18:28:59,088 INFO /home/kumkum/.local/bin/bench worker
+2024-10-08 18:28:59,093 INFO /home/kumkum/.local/bin/bench watch
+2024-10-08 18:28:59,106 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-08 18:28:59,126 INFO /home/kumkum/.local/bin/bench worker
+2024-10-08 18:28:59,129 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-09 10:17:22,593 INFO /home/kumkum/.local/bin/bench start
+2024-10-09 10:17:22,819 INFO /home/kumkum/.local/bin/bench worker
+2024-10-09 10:17:22,830 INFO /home/kumkum/.local/bin/bench watch
+2024-10-09 10:17:22,840 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-09 10:17:22,847 INFO /home/kumkum/.local/bin/bench worker
+2024-10-09 10:17:22,852 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-09 10:34:58,415 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-09 10:37:20,617 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-09 10:39:36,674 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-09 10:41:18,968 INFO /home/kumkum/.local/bin/bench --site MySite migrate
+2024-10-09 11:57:35,984 INFO /home/kumkum/.local/bin/bench --site MySite migrate
+2024-10-09 12:00:01,558 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-09 20:38:03,850 INFO /home/kumkum/.local/bin/bench --site MySite backup --with-files
+2024-10-10 12:00:01,468 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-10 12:26:20,086 INFO /home/kumkum/.local/bin/bench --site MySite run-tests --app rentals
+2024-10-10 12:27:05,990 INFO /home/kumkum/.local/bin/bench --site MySite set-config allow_tests true
+2024-10-10 12:27:14,316 INFO /home/kumkum/.local/bin/bench --site MySite run-tests --app rentals
+2024-10-10 12:27:42,600 INFO /home/kumkum/.local/bin/bench --site MySite run-tests --app rentals
+2024-10-10 14:22:52,549 INFO /home/kumkum/.local/bin/bench start
+2024-10-10 14:22:52,783 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-10 14:22:52,799 INFO /home/kumkum/.local/bin/bench worker
+2024-10-10 14:22:52,817 INFO /home/kumkum/.local/bin/bench watch
+2024-10-10 14:22:52,820 INFO /home/kumkum/.local/bin/bench worker
+2024-10-10 14:22:52,828 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-10 14:22:52,834 INFO /home/kumkum/.local/bin/bench worker
+2024-10-10 14:41:10,116 INFO /home/kumkum/.local/bin/bench –site MySite export-fixtures
+2024-10-10 14:41:42,914 INFO /home/kumkum/.local/bin/bench --site MySite export-fixtures
+2024-10-10 14:49:21,345 INFO /home/kumkum/.local/bin/bench --site MySite export-fixtures
+2024-10-10 14:49:47,501 INFO /home/kumkum/.local/bin/bench --site MySite export-fixtures
+2024-10-15 11:16:49,289 INFO /home/kumkum/.local/bin/bench start
+2024-10-15 11:16:49,530 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-15 11:16:49,532 INFO /home/kumkum/.local/bin/bench worker
+2024-10-15 11:16:49,553 INFO /home/kumkum/.local/bin/bench watch
+2024-10-15 11:16:49,553 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-15 11:16:49,555 INFO /home/kumkum/.local/bin/bench worker
+2024-10-15 11:16:49,569 INFO /home/kumkum/.local/bin/bench worker
+2024-10-15 11:20:13,121 INFO /home/kumkum/.local/bin/bench set-config -g server_script_enabled 1
+2024-10-15 12:00:01,206 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-15 18:00:01,813 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-16 09:39:34,118 INFO /home/kumkum/.local/bin/bench start
+2024-10-16 09:39:34,389 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-16 09:39:34,390 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-16 09:39:34,409 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 09:39:34,415 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 09:39:34,418 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 09:39:34,420 INFO /home/kumkum/.local/bin/bench watch
+2024-10-16 09:51:12,193 INFO /home/kumkum/.local/bin/bench build
+2024-10-16 09:51:36,515 INFO /home/kumkum/.local/bin/bench start
+2024-10-16 09:51:36,733 INFO /home/kumkum/.local/bin/bench watch
+2024-10-16 09:51:36,742 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 09:51:36,757 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-16 09:51:36,758 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-16 09:51:36,768 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 09:51:36,790 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 09:51:49,423 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-16 09:56:07,800 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-10-16 09:56:14,696 INFO /home/kumkum/.local/bin/bench start
+2024-10-16 09:56:14,919 INFO /home/kumkum/.local/bin/bench watch
+2024-10-16 09:56:14,935 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 09:56:14,936 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-16 09:56:14,943 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 09:56:14,948 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-16 09:56:14,952 INFO /home/kumkum/.local/bin/bench worker
+2024-10-16 12:00:01,768 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-16 18:00:01,617 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-17 09:44:09,443 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 09:44:10,237 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 09:44:10,287 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 09:44:10,307 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 09:44:10,323 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 09:44:10,327 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 09:44:10,468 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 10:09:53,460 INFO /home/kumkum/.local/bin/bench --site Airplaenask console
+2024-10-17 10:10:16,924 INFO /home/kumkum/.local/bin/bench --site AirplaneTask console
+2024-10-17 10:51:32,173 INFO /home/kumkum/.local/bin/bench build
+2024-10-17 10:52:09,017 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 10:52:09,657 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 10:52:09,684 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 10:52:09,780 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 10:52:09,786 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 10:52:09,803 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 10:52:09,819 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 11:03:29,173 INFO /home/kumkum/.local/bin/bench build
+2024-10-17 11:04:06,061 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 11:04:06,683 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:04:06,762 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:04:06,784 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 11:04:06,794 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 11:04:06,804 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 11:04:06,828 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:04:17,430 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-17 11:06:41,558 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-17 11:08:07,902 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 11:08:08,583 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:08:08,619 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:08:08,654 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 11:08:08,677 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:08:08,694 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 11:08:08,703 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 11:12:48,287 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 11:12:48,573 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:12:48,579 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:12:48,587 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 11:12:48,589 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 11:12:48,591 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 11:12:48,596 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 11:13:36,481 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-17 12:00:01,165 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-17 12:12:14,482 INFO /home/kumkum/.local/bin/bench build
+2024-10-17 12:12:43,018 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 12:12:43,249 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 12:12:43,260 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 12:12:43,272 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 12:12:43,278 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:12:43,279 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:12:43,300 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:21:00,916 INFO /home/kumkum/.local/bin/bench --site Airplaenask console
+2024-10-17 12:21:09,152 INFO /home/kumkum/.local/bin/bench --site AirplaneTask console
+2024-10-17 12:47:21,637 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-17 12:49:59,235 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 12:49:59,453 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:49:59,459 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:49:59,489 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 12:49:59,491 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 12:49:59,517 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:49:59,517 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 12:50:08,669 INFO /home/kumkum/.local/bin/bench build
+2024-10-17 12:51:23,728 INFO /home/kumkum/.local/bin/bench migrate
+2024-10-17 12:51:34,461 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 12:51:34,656 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:51:34,693 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 12:51:34,695 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:51:34,697 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 12:51:34,698 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 12:51:34,702 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 14:39:23,037 INFO /home/kumkum/.local/bin/bench --site AirplaneTask mariadb
+2024-10-17 15:46:31,669 INFO /home/kumkum/.local/bin/bench --site AirplaneTask mariadb
+2024-10-17 17:07:43,226 INFO /home/kumkum/.local/bin/bench --site AirplaneTask mariadb
+2024-10-17 18:00:01,907 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-17 20:00:36,791 INFO /home/kumkum/.local/bin/bench start
+2024-10-17 20:00:37,044 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 20:00:37,044 INFO /home/kumkum/.local/bin/bench worker
+2024-10-17 20:00:37,059 INFO /home/kumkum/.local/bin/bench watch
+2024-10-17 20:00:37,060 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-17 20:00:37,061 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-17 20:00:37,081 INFO /home/kumkum/.local/bin/bench worker
+2024-10-18 10:20:44,416 INFO /home/kumkum/.local/bin/bench start
+2024-10-18 10:20:45,084 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-18 10:20:45,093 INFO /home/kumkum/.local/bin/bench worker
+2024-10-18 10:20:45,159 INFO /home/kumkum/.local/bin/bench worker
+2024-10-18 10:20:45,163 INFO /home/kumkum/.local/bin/bench worker
+2024-10-18 10:20:45,171 INFO /home/kumkum/.local/bin/bench watch
+2024-10-18 10:20:45,192 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-18 10:21:02,290 INFO /home/kumkum/.local/bin/bench use --site MySite
+2024-10-18 10:21:14,750 INFO /home/kumkum/.local/bin/bench use MySite
+2024-10-18 10:21:22,710 INFO /home/kumkum/.local/bin/bench start
+2024-10-18 10:21:23,377 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-18 10:21:23,390 INFO /home/kumkum/.local/bin/bench worker
+2024-10-18 10:21:23,410 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-18 10:21:23,432 INFO /home/kumkum/.local/bin/bench worker
+2024-10-18 10:21:23,436 INFO /home/kumkum/.local/bin/bench watch
+2024-10-18 10:21:23,475 INFO /home/kumkum/.local/bin/bench worker
+2024-10-18 11:23:42,143 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-10-18 11:34:35,624 INFO /home/kumkum/.local/bin/bench build
+2024-10-18 12:00:02,092 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-18 12:33:09,938 INFO /home/kumkum/.local/bin/bench --site MySite mariadb
+2024-10-19 10:04:17,187 INFO /home/kumkum/.local/bin/bench start
+2024-10-19 10:04:17,410 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-19 10:04:17,424 INFO /home/kumkum/.local/bin/bench worker
+2024-10-19 10:04:17,446 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-19 10:04:17,448 INFO /home/kumkum/.local/bin/bench watch
+2024-10-19 10:04:17,456 INFO /home/kumkum/.local/bin/bench worker
+2024-10-19 10:04:17,460 INFO /home/kumkum/.local/bin/bench worker
+2024-10-19 12:00:01,768 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-21 12:00:01,818 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-22 09:29:53,721 INFO /home/kumkum/.local/bin/bench start
+2024-10-22 09:29:53,955 INFO /home/kumkum/.local/bin/bench watch
+2024-10-22 09:29:53,962 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:29:53,988 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-22 09:29:53,991 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-22 09:29:53,997 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:29:54,006 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:32:47,492 INFO /home/kumkum/.local/bin/bench new-site projectsite
+2024-10-22 09:38:30,599 INFO /home/kumkum/.local/bin/bench new-app appointments_app
+2024-10-22 09:38:30,602 LOG creating new app appointments_app
+2024-10-22 09:40:45,200 LOG Installing appointments_app
+2024-10-22 09:40:45,201 DEBUG cd /home/kumkum/New-FrappeBench && /home/kumkum/New-FrappeBench/env/bin/python -m pip install --quiet --upgrade -e /home/kumkum/New-FrappeBench/apps/appointments_app 
+2024-10-22 09:40:51,837 DEBUG bench build --app appointments_app
+2024-10-22 09:40:51,917 INFO /home/kumkum/.local/bin/bench build --app appointments_app
+2024-10-22 09:40:52,943 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-10-22 09:40:55,780 INFO A newer version of bench is available: 5.22.6 → 5.22.9
+2024-10-22 09:42:28,441 INFO /home/kumkum/.local/bin/bench --site projectsite install-app appointments_app
+2024-10-22 09:42:51,951 INFO /home/kumkum/.local/bin/bench start
+2024-10-22 09:42:52,169 INFO /home/kumkum/.local/bin/bench watch
+2024-10-22 09:42:52,171 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:42:52,195 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-22 09:42:52,200 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-22 09:42:52,200 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:42:52,209 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:43:11,858 INFO /home/kumkum/.local/bin/bench use projectsite
+2024-10-22 09:43:18,760 INFO /home/kumkum/.local/bin/bench start
+2024-10-22 09:43:18,964 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:43:18,998 INFO /home/kumkum/.local/bin/bench watch
+2024-10-22 09:43:18,998 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-22 09:43:19,002 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:43:19,007 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:43:19,013 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-22 09:50:06,326 INFO /home/kumkum/.local/bin/bench start
+2024-10-22 09:50:06,518 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-22 09:50:06,550 INFO /home/kumkum/.local/bin/bench watch
+2024-10-22 09:50:06,561 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:50:06,561 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-22 09:50:06,561 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 09:50:06,586 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 12:00:01,208 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-22 21:31:12,370 INFO /home/kumkum/.local/bin/bench start
+2024-10-22 21:31:12,637 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 21:31:12,642 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 21:31:12,650 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-22 21:31:12,650 INFO /home/kumkum/.local/bin/bench worker
+2024-10-22 21:31:12,651 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-22 21:31:12,655 INFO /home/kumkum/.local/bin/bench watch
+2024-10-23 11:24:08,194 INFO /home/kumkum/.local/bin/bench start
+2024-10-23 11:24:08,497 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 11:24:08,499 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-23 11:24:08,506 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-23 11:24:08,512 INFO /home/kumkum/.local/bin/bench watch
+2024-10-23 11:24:08,520 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 11:24:08,527 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 11:25:31,608 INFO /home/kumkum/.local/bin/bench use MySite
+2024-10-23 11:25:38,340 INFO /home/kumkum/.local/bin/bench start
+2024-10-23 11:25:38,581 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 11:25:38,584 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 11:25:38,607 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-23 11:25:38,608 INFO /home/kumkum/.local/bin/bench watch
+2024-10-23 11:25:38,619 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 11:25:38,656 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-23 12:00:01,753 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-23 12:59:20,118 INFO /home/kumkum/.local/bin/bench use projectsite
+2024-10-23 12:59:26,049 INFO /home/kumkum/.local/bin/bench start
+2024-10-23 12:59:26,282 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-23 12:59:26,289 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 12:59:26,310 INFO /home/kumkum/.local/bin/bench watch
+2024-10-23 12:59:26,313 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-23 12:59:26,318 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 12:59:26,350 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 15:46:22,596 INFO /home/kumkum/.local/bin/bench start
+2024-10-23 15:46:22,828 INFO /home/kumkum/.local/bin/bench schedule
+2024-10-23 15:46:22,845 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 15:46:22,853 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-10-23 15:46:22,858 INFO /home/kumkum/.local/bin/bench watch
+2024-10-23 15:46:22,863 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 15:46:22,879 INFO /home/kumkum/.local/bin/bench worker
+2024-10-23 18:00:01,184 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-24 12:00:01,660 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-24 18:00:01,702 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-26 12:00:02,029 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-27 00:00:02,155 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-10-28 12:00:02,022 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-11-05 12:00:01,988 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-11-05 14:54:22,194 INFO /home/kumkum/.local/bin/bench start
+2024-11-05 14:54:22,440 INFO /home/kumkum/.local/bin/bench worker
+2024-11-05 14:54:22,447 INFO /home/kumkum/.local/bin/bench worker
+2024-11-05 14:54:22,458 INFO /home/kumkum/.local/bin/bench watch
+2024-11-05 14:54:22,464 INFO /home/kumkum/.local/bin/bench worker
+2024-11-05 14:54:22,468 INFO /home/kumkum/.local/bin/bench schedule
+2024-11-05 14:54:22,479 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-11-05 14:55:45,248 INFO /home/kumkum/.local/bin/bench use AirplaneTask
+2024-11-05 14:55:55,049 INFO /home/kumkum/.local/bin/bench start
+2024-11-05 14:55:55,288 INFO /home/kumkum/.local/bin/bench watch
+2024-11-05 14:55:55,288 INFO /home/kumkum/.local/bin/bench worker
+2024-11-05 14:55:55,316 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-11-05 14:55:55,324 INFO /home/kumkum/.local/bin/bench worker
+2024-11-05 14:55:55,337 INFO /home/kumkum/.local/bin/bench schedule
+2024-11-05 14:55:55,351 INFO /home/kumkum/.local/bin/bench worker
+2024-11-05 18:00:02,038 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-11-06 09:57:25,410 INFO /home/kumkum/.local/bin/bench start
+2024-11-06 09:57:25,668 INFO /home/kumkum/.local/bin/bench worker
+2024-11-06 09:57:25,675 INFO /home/kumkum/.local/bin/bench watch
+2024-11-06 09:57:25,679 INFO /home/kumkum/.local/bin/bench serve --port 8001
+2024-11-06 09:57:25,680 INFO /home/kumkum/.local/bin/bench schedule
+2024-11-06 09:57:25,686 INFO /home/kumkum/.local/bin/bench worker
+2024-11-06 09:57:25,693 INFO /home/kumkum/.local/bin/bench worker
+2024-11-06 12:00:01,905 INFO /home/kumkum/.local/bin/bench --verbose --site all backup
+2024-11-06 18:00:01,284 INFO /home/kumkum/.local/bin/bench --verbose --site all backup

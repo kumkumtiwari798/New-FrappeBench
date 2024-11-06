@@ -1,0 +1,516 @@
+2024-09-17 21:25:38,314 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"vlahl75g52","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:19:45.264105","modified_by":"Administrator","docstatus":0,"idx":0,"order":"RO-09-2024-36","driver":"DR-028","rate":50,"total_amount":100,"doctype":"Ride Booking","items":[{"name":"vlahp3asdb","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:19:45.264105","modified_by":"Administrator","docstatus":0,"idx":1,"source":"A","distance":"2","dedtination":"B","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"},{"docstatus":0,"doctype":"Ride Booking item","name":"0snssmso2t","__unsaved":1,"owner":"Administrator","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","idx":2,"source":"B","distance":"4","dedtination":"C","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:19:45.264105","modified_by":"Administrator"}],"still_editable":"387","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-17 21:31:51,230 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"vlahl75g52","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:19:45.264105","modified_by":"Administrator","docstatus":0,"idx":0,"order":"RO-09-2024-36","driver":"DR-028","rate":50,"total_amount":100,"doctype":"Ride Booking","items":[{"name":"vlahp3asdb","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:19:45.264105","modified_by":"Administrator","docstatus":0,"idx":1,"source":"A","distance":"2","dedtination":"B","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"},{"docstatus":0,"doctype":"Ride Booking item","name":"0snssmso2t","__unsaved":1,"owner":"Administrator","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","idx":2,"source":"B","distance":"4","dedtination":"C","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:19:45.264105","modified_by":"Administrator"}],"still_editable":"388","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-17 21:45:47,500 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"vlahl75g52","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:45:04.145407","modified_by":"Administrator","docstatus":0,"idx":0,"order":"RO-09-2024-36","driver":"DR-028","rate":10,"total_amount":60,"doctype":"Ride Booking","items":[{"name":"vlahp3asdb","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:45:04.145407","modified_by":"Administrator","docstatus":0,"idx":1,"source":"A","distance":"2","dedtination":"B","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"},{"docstatus":0,"doctype":"Ride Booking item","name":"0snssmso2t","__unsaved":1,"owner":"Administrator","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","idx":2,"source":"B","distance":"4","dedtination":"C","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:45:04.145407","modified_by":"Administrator"}],"still_editable":"837","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-17 21:47:27,259 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"vlahl75g52","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:45:04.145407","modified_by":"Administrator","docstatus":0,"idx":0,"order":"RO-09-2024-36","driver":"DR-028","still_editable":"837","rate":10,"total_amount":60,"doctype":"Ride Booking","items":[{"name":"vlahp3asdb","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:45:04.145407","modified_by":"Administrator","docstatus":0,"idx":1,"source":"A","distance":"2","dedtination":"B","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"},{"name":"0snssmso2t","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:45:04.145407","modified_by":"Administrator","docstatus":0,"idx":2,"source":"B","distance":"4","dedtination":"C","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"}],"__last_sync_on":"2024-09-17T16:16:45.177Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-17 21:48:49,096 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"vlahl75g52","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:47:58.367688","modified_by":"Administrator","docstatus":0,"idx":0,"order":"RO-09-2024-36","driver":"DR-028","still_editable":"83","rate":10,"total_amount":60,"doctype":"Ride Booking","items":[{"name":"vlahp3asdb","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:47:58.367688","modified_by":"Administrator","docstatus":0,"idx":1,"source":"A","distance":2,"dedtination":"B","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"},{"name":"0snssmso2t","owner":"Administrator","creation":"2024-09-17 20:12:28.911509","modified":"2024-09-17 21:47:58.367688","modified_by":"Administrator","docstatus":0,"idx":2,"source":"B","distance":4,"dedtination":"C","parent":"vlahl75g52","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-18 15:19:16,526 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'app_path': 'users'}
+2024-09-21 09:59:35,310 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'name': 'Vehicles by service status', 'cmd': 'frappe.email.doctype.auto_email_report.auto_email_report.send_now'}
+2024-09-21 10:35:08,781 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Vehicles by Make', 'filters': '{"Make":"b"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-21 10:35:17,046 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Vehicles by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-21 10:36:12,218 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Vehicles by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-21 10:36:54,349 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Vehicles by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-21 10:37:36,026 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Vehicles by Make', 'filters': '{"Make":"b"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-21 11:54:17,550 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'fields': '["*"]/DR-001'}
+2024-09-21 12:53:04,156 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-21 12:53:29,723 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-21 12:54:38,746 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'first_name': 'Seeta', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-21 12:54:46,838 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'first_name': 'Seeta', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-21 21:42:37,835 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'first_name': 'Seeta', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-21 21:42:38,678 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'first_name': 'Seeta', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-21 21:44:02,830 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'first_name': 'Seeta', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-21 21:54:50,237 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': {'name': 'Number of Vehicles'}, 'filters': {'status': 'Active'}, 'result': {'previous_value': 100, 'current_value': 120}, 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-21 21:57:30,225 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': {'name': 'Number of Vehicles'}, 'filters': [['status', '=', 'Active'], ['Vehicles', 'creation', '<', '2024-09-20 21:57:30.203918']], 'result': {'previous_value': 100, 'current_value': 120}, 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-22 00:17:38,277 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:22:27,308 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:23:27,182 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:29:19,515 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:29:40,088 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:30:45,020 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:43:52,438 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:46:02,875 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:46:50,348 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:47:16,700 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:47:58,637 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:48:32,001 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-22 00:48:48,284 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'report_name': 'Revenue by Make', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-09-23 11:33:54,062 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"jmnb2vbrkd","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":0,"total_amount":0,"discount":0,"payable_amount":0,"doctype":"Invoice Task","products_details":[{"name":"jmnbk6dc1j","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":1,"product_name":"Apple","quantity":5,"price":5,"total":0,"parent":"jmnb2vbrkd","parentfield":"products_details","parenttype":"Invoice Task","doctype":"Product"}],"__last_sync_on":"2024-09-23T06:03:44.285Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-23 11:35:00,110 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"jmnb2vbrkd","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":0,"total_amount":0,"discount":0,"payable_amount":0,"doctype":"Invoice Task","products_details":[{"name":"jmnbk6dc1j","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":1,"product_name":"Apple","quantity":5,"price":5,"total":0,"parent":"jmnb2vbrkd","parentfield":"products_details","parenttype":"Invoice Task","doctype":"Product"}],"__last_sync_on":"2024-09-23T06:04:50.460Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-23 11:35:21,812 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"jmnb2vbrkd","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":0,"total_amount":0,"discount":0,"payable_amount":0,"doctype":"Invoice Task","products_details":[{"name":"jmnbk6dc1j","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":1,"product_name":"Apple","quantity":5,"price":5,"total":0,"parent":"jmnb2vbrkd","parentfield":"products_details","parenttype":"Invoice Task","doctype":"Product"}],"__last_sync_on":"2024-09-23T06:04:50.460Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-23 11:40:37,671 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"jmnb2vbrkd","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":0,"total_amount":0,"discount":0,"payable_amount":0,"doctype":"Invoice Task","products_details":[{"name":"jmnbk6dc1j","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":1,"product_name":"Apple","quantity":5,"price":5,"total":0,"parent":"jmnb2vbrkd","parentfield":"products_details","parenttype":"Invoice Task","doctype":"Product"}],"__last_sync_on":"2024-09-23T06:10:29.547Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-23 11:41:34,439 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"jmnb2vbrkd","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":0,"total_amount":0,"discount":0,"payable_amount":0,"doctype":"Invoice Task","products_details":[{"name":"jmnbk6dc1j","owner":"Administrator","creation":"2024-09-23 10:57:38.639564","modified":"2024-09-23 11:15:30.700528","modified_by":"Administrator","docstatus":0,"idx":1,"product_name":"Apple","quantity":5,"price":5,"total":0,"parent":"jmnb2vbrkd","parentfield":"products_details","parenttype":"Invoice Task","doctype":"Product"}],"__last_sync_on":"2024-09-23T06:10:29.547Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-24 19:03:29,769 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': {'name': 'Number of Vehicles'}, 'filters': [['status', '=', 'Active'], ['Vehicles', 'creation', '<', '2024-09-23 19:03:29.503438']], 'result': {'previous_value': 100, 'current_value': 120}, 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-24 19:09:10,375 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': {'name': 'Number of Vehicles'}, 'result': {'previous_value': 23, 'current_value': 120}, 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-24 19:09:54,429 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {}
+2024-09-24 19:10:04,902 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': {'name': 'Number of Vehicles'}, 'filters': {}, 'result': {'previous_value': 23, 'current_value': 120}, 'cmd': 'frappe.desk.doctype.number_card.number_card.get_percentage_difference'}
+2024-09-25 22:09:46,111 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-001-Airport-123-Airport-123","owner":"Administrator","creation":"2024-08-08 12:24:14.380794","modified":"2024-09-25 21:40:50.469223","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"2","source_airport":"SV Airport","destination_airport":"SV Airport","source_airport_code":"Airport-123","destination_airport_code":"Airport-123","flight":"IndiGo-001","departure_date":"2024-08-10","departure_time":"12:23:55","duration_of_flight":86400,"status":"Checked-In","flight_price":0,"total_amount":0,"doctype":"Airplane Ticket","add_ons":[{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-hcnfenpgaa","__islocal":1,"__unsaved":1,"owner":"Administrator","amount":0,"parent":"Flight-001-Airport-123-Airport-123","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"item":"Window Seat"}],"__last_sync_on":"2024-09-25T16:12:26.406Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:00:41,873 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":4,"source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-ilqwsipvuk","__islocal":1,"__unsaved":1,"owner":"Administrator","amount":1200,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":3,"__unedited":false,"item":"Window Seat"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:03:33,066 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":4,"source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:05:08,101 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":4,"source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:05:38,393 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":4,"source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:06:33,633 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"4","source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-09-26T04:36:25.464Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:07:35,130 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"4","source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-09-26T04:36:25.464Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:08:51,393 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"4","source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-09-26T04:36:25.464Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:08:55,182 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"4","source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-09-26T04:36:25.464Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:09:18,289 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"4","source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-09-26T04:36:25.464Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:12:56,466 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"4","source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-09-26T04:42:49.479Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:15:44,424 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"4","source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-09-26T04:45:40.642Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 10:18:49,825 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"Flight-003-Airport-123- BLR","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"4","source_airport":"SV Airport","destination_airport":"Flight International","source_airport_code":"Airport-123","destination_airport_code":" BLR ","flight":"IndiGo-002","departure_date":"2024-09-26","departure_time":"22:17:25","duration_of_flight":432000,"status":"Booked","flight_price":1000,"total_amount":1100,"doctype":"Airplane Ticket","add_ons":[{"name":"ktagat9rhk","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":1,"item":"in-flight meals","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"},{"name":"ktagiern7l","owner":"Administrator","creation":"2024-09-25 22:18:46.390681","modified":"2024-09-26 08:57:48.893538","modified_by":"Administrator","docstatus":0,"idx":2,"item":"Window Seat","amount":50,"parent":"Flight-003-Airport-123- BLR","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-09-26T04:45:40.642Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 11:24:44,131 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Flight","name":"new-airplane-flight-ktwokcltfo","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Cancelled","airplane":"IndiGo-001","date_of_departure":"2024-09-29","time_of_departure":"08:36:15","duration":"5s"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-26 16:28:13,374 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Flight","name":"new-airplane-flight-putaxdhosh","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Scheduled","airplane":"IndiGo-003","date_of_departure":"2024-09-27","time_of_departure":"16:27:49","duration":"5s","source_airport_code":"Airport-123","source_airport":"SV Airport","destination_airport_code":" BLR ","destination_airport":"Flight International"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-28 21:35:23,550 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedule', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 21:35:35,981 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedule', 'name': 'Shivam Tiwari-FrontEnd Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 21:36:02,276 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Interviews Schedule","name":"new-interviews-schedule-qnkdgodywl","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Rejected","role_applied":"FullStack Developer","candidate_name":"Urmila","interviewers_name":"Neha Gupta","interview_date":"2024-09-28 21:35:57"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-28 21:38:13,747 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedule', 'name': 'Kusum Sinha-BackEnd Developer-Priya Mehta', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 21:53:20,907 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedule', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 21:54:20,172 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 21:55:09,521 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 21:55:13,988 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Shivam Tiwari-FrontEnd Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 21:55:38,137 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Urmila-FullStack Developer-Shivani Tiwari', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 22:01:56,311 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-28 22:02:36,473 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Shivam Tiwari-FrontEnd Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:33:03,794 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:38:25,738 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Shivam Tiwari-FrontEnd Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:38:51,286 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Shivam Tiwari-FrontEnd Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:45:53,586 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Shivam Tiwari-FrontEnd Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:50:44,662 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:50:58,211 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Shivam Tiwari-FrontEnd Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:51:08,087 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'swati-FrontEnd Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:52:45,564 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 10:59:53,539 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Interviews Schedules', 'name': 'Kumkum Tiwari-FullStack Developer-Ravi Kumar', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-09-30 12:08:21,424 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"doctype":"DocType","name":"try","module":"Custom","is_submittable":0,"istable":0,"editable_grid":0,"issingle":0,"is_tree":0,"custom":0,"is_virtual":0,"permissions":[{"create":1,"delete":1,"email":1,"export":1,"print":1,"read":1,"report":1,"role":"System Manager","share":1,"write":1,"submit":0}],"fields":[{"fieldtype":"Section Break"}]}', 'cmd': 'frappe.client.insert'}
+2024-10-02 10:48:07,827 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-cdywdpxfhb","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Booked","add_ons":[{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-khktekvvnb","__islocal":1,"__unsaved":1,"owner":"Administrator","amount":2000,"parent":"new-airplane-ticket-cdywdpxfhb","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"add_on_type":"in-flight meals"}],"flight_price":5000,"passanger":3,"source_airport_code":" BLR ","destination_airport_code":"Airport-123","flight":"IndiGo-002-09-2024-0006","departure_date":"2024-10-03","departure_time":"10:48:02","duration_of_flight":"5s"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-02 12:31:14,856 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Task', 'with_parent': '1', 'cached_timestamp': '2024-09-18 18:53:03.042431', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-10-02 12:31:34,255 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Task', 'name': 'Task-003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 12:40:26,648 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'docs': '{"name":"documentapi","creation":"2024-10-02 12:32:47.754452","modified":"2024-10-02 12:33:29.259964","modified_by":"Administrator","owner":"Administrator","docstatus":0,"idx":0,"issingle":0,"is_virtual":0,"is_tree":0,"istable":0,"editable_grid":0,"track_changes":0,"module":"Rentals","naming_rule":"","sort_field":"creation","sort_order":"DESC","read_only":0,"in_create":0,"allow_copy":0,"allow_rename":1,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"document_type":"","engine":"InnoDB","is_submittable":0,"show_name_in_global_search":0,"custom":0,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"email_append_to":0,"show_title_field_in_link":0,"translated_doctype":0,"is_calendar_and_gantt":0,"quick_entry":0,"track_views":0,"queue_in_background":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"index_web_pages_for_search":1,"doctype":"DocType","actions":[],"links":[],"permissions":[{"name":"2o7di0r51t","creation":"2024-10-02 12:32:47.754452","modified":"2024-10-02 12:33:29.259964","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"documentapi","parentfield":"permissions","parenttype":"DocType","idx":1,"permlevel":0,"role":"System Manager","read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"doctype":"DocPerm"}],"states":[],"fields":[{"name":"2okccsvlhg","creation":"2024-10-02 12:32:47.754452","modified":"2024-10-02 12:33:29.259964","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"documentapi","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"name1","label":"Name","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"not_nullable":0,"sort_options":0,"doctype":"DocField"},{"name":"2okc78qjou","creation":"2024-10-02 12:32:47.754452","modified":"2024-10-02 12:33:29.259964","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"documentapi","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"age","label":"Age","fieldtype":"Int","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"not_nullable":0,"sort_options":0,"doctype":"DocField"},{"name":"2okc42c1r9","creation":"2024-10-02 12:32:47.754452","modified":"2024-10-02 12:33:29.259964","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"documentapi","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"phone_number","label":"Phone Number","fieldtype":"Phone","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"not_nullable":0,"sort_options":0,"doctype":"DocField"}],"__last_sync_on":"2024-10-02T07:10:26.413Z"}', 'method': 'check_pending_migration', 'cmd': 'run_doc_method'}
+2024-10-02 14:05:50,709 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'documentapi', 'name': 'shivani', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 14:10:42,767 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'documentapi', 'name': 'shivani', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 14:11:35,043 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"documentapi","name":"new-documentapi-alqetwcpbe","__islocal":1,"__unsaved":1,"owner":"Administrator","name1":"alfa","age":20,"phone_number":"+91-987456321"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-02 14:11:54,467 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'documentapi', 'name': 'shivani', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 14:20:57,915 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'testing3', 'name': '4lmni29i3h', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 14:38:19,857 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'testing3', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-10-04 19:49:38,880 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"shivam","owner":"Administrator","creation":"2024-10-02 14:18:46.047625","modified":"2024-10-02 14:18:46.047625","modified_by":"Administrator","docstatus":0,"idx":0,"name1":"shivam","age":15,"doctype":"testing3","__last_sync_on":"2024-10-04T14:19:33.636Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-04 19:49:47,679 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"shivam","owner":"Administrator","creation":"2024-10-02 14:18:46.047625","modified":"2024-10-02 14:18:46.047625","modified_by":"Administrator","docstatus":0,"idx":0,"name1":"shivam","age":null,"doctype":"testing3","__last_sync_on":"2024-10-04T14:19:33.636Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-04 19:50:46,272 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"testing3","name":"new-testing3-yzzkiwyqji","__islocal":1,"__unsaved":1,"owner":"Administrator","name1":"shivani"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-04 19:51:05,969 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"testing3","name":"new-testing3-yzzkiwyqji","__islocal":1,"__unsaved":1,"owner":"Administrator","name1":"shivani"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-04 19:52:06,046 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"shivam","owner":"Administrator","creation":"2024-10-02 14:18:46.047625","modified":"2024-10-02 14:18:46.047625","modified_by":"Administrator","docstatus":0,"idx":0,"name1":"shivam","age":15,"doctype":"testing3","__last_sync_on":"2024-10-04T14:21:55.650Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-04 19:59:27,935 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"testing3","name":"new-testing3-imhrdpjnye","__islocal":1,"__unsaved":1,"owner":"Administrator","name1":"kumkum"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-04 20:53:32,051 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"kumkum","owner":"Administrator","creation":"2024-10-04 20:00:15.703193","modified":"2024-10-04 20:00:15.703193","modified_by":"Administrator","docstatus":0,"idx":0,"name1":"kumkum","age":10,"doctype":"testing3","__last_sync_on":"2024-10-04T14:32:17.310Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-09 16:27:50,171 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Vehicles', 'fields': '["`tabVehicles`.`name`","`tabVehicles`.`owner`","`tabVehicles`.`creation`","`tabVehicles`.`modified`","`tabVehicles`.`modified_by`","`tabVehicles`.`_user_tags`","`tabVehicles`.`_comments`","`tabVehicles`.`_assign`","`tabVehicles`.`_liked_by`","`tabVehicles`.`docstatus`","`tabVehicles`.`idx`","`tabVehicles`.`make`","`tabVehicles`.`year`","`tabVehicles`.`colour`","`tabVehicles`.`model`","`tabVehicles`.`status`","`tabVehicles`.`title`"]', 'filters': '[]', 'order_by': '`tabVehicles`.creation desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-09 16:28:43,366 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Vehicles', 'fields': '["`tabVehicles`.`name`","`tabVehicles`.`owner`","`tabVehicles`.`creation`","`tabVehicles`.`modified`","`tabVehicles`.`modified_by`","`tabVehicles`.`_user_tags`","`tabVehicles`.`_comments`","`tabVehicles`.`_assign`","`tabVehicles`.`_liked_by`","`tabVehicles`.`docstatus`","`tabVehicles`.`idx`","`tabVehicles`.`make`","`tabVehicles`.`year`","`tabVehicles`.`colour`","`tabVehicles`.`model`","`tabVehicles`.`status`","`tabVehicles`.`title`"]', 'filters': '[]', 'order_by': '`tabVehicles`.creation desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-09 16:28:59,610 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doctype': 'Vehicles', 'fields': '["`tabVehicles`.`name`","`tabVehicles`.`owner`","`tabVehicles`.`creation`","`tabVehicles`.`modified`","`tabVehicles`.`modified_by`","`tabVehicles`.`_user_tags`","`tabVehicles`.`_comments`","`tabVehicles`.`_assign`","`tabVehicles`.`_liked_by`","`tabVehicles`.`docstatus`","`tabVehicles`.`idx`","`tabVehicles`.`make`","`tabVehicles`.`year`","`tabVehicles`.`colour`","`tabVehicles`.`model`","`tabVehicles`.`status`","`tabVehicles`.`title`"]', 'filters': '[]', 'order_by': '`tabVehicles`.creation desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-15 15:08:05,142 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {}
+2024-10-15 16:27:47,975 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Virtual Employee","name":"new-virtual-employee-ohimkqfyso","__islocal":1,"__unsaved":1,"owner":"Administrator","emp_code":"ABCDEF"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-15 16:45:00,259 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Virtual Employee","name":"new-virtual-employee-ohimkqfyso","__islocal":1,"__unsaved":1,"owner":"Administrator","emp_code":"ABCDEF"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-15 19:02:00,676 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"0hib01m5oh","owner":"Administrator","creation":"2024-10-15 18:56:05.907748","modified":"2024-10-15 18:56:05.907748","modified_by":"Administrator","docstatus":0,"idx":0,"workflow_state":"New","order":"RO-09-2024-40","vehicle":"43","driver":"DR-028","rate":2000,"total_amount":52000,"doctype":"Ride Booking","items":[{"name":"0hib0vgrkk","owner":"Administrator","creation":"2024-10-15 18:56:05.907748","modified":"2024-10-15 18:56:05.907748","modified_by":"Administrator","docstatus":0,"idx":1,"source":"A","distance":26,"dedtination":"Z","parent":"0hib01m5oh","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"}],"__last_sync_on":"2024-10-15T13:31:50.489Z"}', 'action': 'Request Approval', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2024-10-15 19:02:10,650 ERROR frappe New Exception collected in error log
+Site: MySite
+Form Dict: {'doc': '{"name":"0hib01m5oh","owner":"Administrator","creation":"2024-10-15 18:56:05.907748","modified":"2024-10-15 18:56:05.907748","modified_by":"Administrator","docstatus":0,"idx":0,"workflow_state":"New","order":"RO-09-2024-40","vehicle":"43","driver":"DR-028","rate":2000,"total_amount":52000,"doctype":"Ride Booking","items":[{"name":"0hib0vgrkk","owner":"Administrator","creation":"2024-10-15 18:56:05.907748","modified":"2024-10-15 18:56:05.907748","modified_by":"Administrator","docstatus":0,"idx":1,"source":"A","distance":26,"dedtination":"Z","parent":"0hib01m5oh","parentfield":"items","parenttype":"Ride Booking","doctype":"Ride Booking item"}],"__last_sync_on":"2024-10-15T13:31:50.489Z"}', 'action': 'Request Approval', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2024-10-16 11:37:28,692 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-rgncliuwrh","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Booked","add_ons":[{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-xommyymhxr","__islocal":1,"__unsaved":1,"owner":"Administrator","amount":1000,"parent":"new-airplane-ticket-rgncliuwrh","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"add_on_type":"in-flight meals"}],"flight_price":2500,"passanger":3,"source_airport_code":"Airport-123","destination_airport_code":" BLR ","departure_date":"2024-09-27","departure_time":"16:32:49","duration_of_flight":86400,"flight":"SpiceJET-018-09-2024-0019"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-16 11:37:55,388 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-rgncliuwrh","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Booked","add_ons":[{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-xommyymhxr","__islocal":1,"__unsaved":1,"owner":"Administrator","amount":1000,"parent":"new-airplane-ticket-rgncliuwrh","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"add_on_type":"in-flight meals"}],"flight_price":2500,"passanger":3,"source_airport_code":"Airport-123","destination_airport_code":" BLR ","departure_date":"2024-09-27","departure_time":"16:32:49","duration_of_flight":86400,"flight":"SpiceJET-018-09-2024-0019","seat":"65A"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-16 11:41:31,895 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-rgncliuwrh","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Booked","add_ons":[{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-xommyymhxr","__islocal":1,"__unsaved":1,"owner":"Administrator","amount":1000,"parent":"new-airplane-ticket-rgncliuwrh","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"add_on_type":"in-flight meals"}],"flight_price":2500,"passanger":3,"source_airport_code":"Airport-123","destination_airport_code":" BLR ","departure_date":"2024-09-27","departure_time":"16:32:49","duration_of_flight":86400,"flight":"SpiceJET-018-09-2024-0019","seat":"65A"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-16 11:42:47,002 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-rgncliuwrh","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Booked","add_ons":[{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-xommyymhxr","__islocal":1,"__unsaved":1,"owner":"Administrator","amount":1000,"parent":"new-airplane-ticket-rgncliuwrh","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"add_on_type":"in-flight meals"}],"flight_price":2500,"passanger":3,"source_airport_code":"Airport-123","destination_airport_code":" BLR ","departure_date":"2024-09-27","departure_time":"16:32:49","duration_of_flight":86400,"flight":"SpiceJET-018-09-2024-0019","seat":"65A"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-16 11:43:39,949 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Ticket","name":"new-airplane-ticket-rgncliuwrh","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Booked","add_ons":[{"docstatus":0,"doctype":"Airplane Ticket Add-on Item","name":"new-airplane-ticket-add-on-item-xommyymhxr","__islocal":1,"__unsaved":1,"owner":"Administrator","amount":1000,"parent":"new-airplane-ticket-rgncliuwrh","parentfield":"add_ons","parenttype":"Airplane Ticket","idx":1,"__unedited":false,"add_on_type":"in-flight meals"}],"flight_price":2500,"passanger":3,"source_airport_code":"Airport-123","destination_airport_code":" BLR ","departure_date":"2024-09-27","departure_time":"16:32:49","duration_of_flight":86400,"flight":"SpiceJET-018-09-2024-0019","seat":"65A"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-16 17:21:35,223 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane', 'fields': '["`tabAirplane`.`name`","`tabAirplane`.`docstatus`","`tabAirplane`.`model`","`tabAirplane`.`airline`","`tabAirplane`.`capacity`"]', 'filters': '[]', 'order_by': '`tabAirplane`.tabAirplane`.creation desc, `tabAirplane`.name desc', 'start': '0', 'page_length': '20', 'view': 'Report', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-16 17:21:59,465 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane', 'fields': '["`tabAirplane`.`name`","`tabAirplane`.`docstatus`","`tabAirplane`.`model`","`tabAirplane`.`airline`","`tabAirplane`.`capacity`"]', 'filters': '[]', 'order_by': '`tabAirplane`.tabAirplane`.creation desc, `tabAirplane`.name desc', 'start': '0', 'page_length': '20', 'view': 'Report', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-16 17:22:45,833 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane', 'fields': '["`tabAirplane`.`name`","`tabAirplane`.`docstatus`","`tabAirplane`.`model`","`tabAirplane`.`airline`","`tabAirplane`.`capacity`"]', 'filters': '[]', 'order_by': '`tabAirplane`.tabAirplane`.creation desc, `tabAirplane`.name desc', 'start': '0', 'page_length': '20', 'view': 'Report', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-16 17:32:05,340 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane', 'fields': '["`tabAirplane`.`name`","`tabAirplane`.`docstatus`","`tabAirplane`.`model`","`tabAirplane`.`airline`","`tabAirplane`.`capacity`"]', 'filters': '[]', 'order_by': '`tabAirplane`.tabAirplane`.creation desc, `tabAirplane`.name desc', 'start': '0', 'page_length': '20', 'view': 'Report', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-16 17:59:36,935 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane', 'fields': '["`tabAirplane`.`name`","`tabAirplane`.`docstatus`","`tabAirplane`.`model`","`tabAirplane`.`airline`","`tabAirplane`.`capacity`"]', 'filters': '[]', 'order_by': '`tabAirplane`.tabAirplane`.creation desc, `tabAirplane`.name desc', 'start': '0', 'page_length': '20', 'view': 'Report', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-16 18:00:00,240 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane', 'fields': '["`tabAirplane`.`name`","`tabAirplane`.`docstatus`","`tabAirplane`.`model`","`tabAirplane`.`airline`","`tabAirplane`.`capacity`"]', 'filters': '[]', 'order_by': '`tabAirplane`.tabAirplane`.creation desc, `tabAirplane`.name desc', 'start': '0', 'page_length': '20', 'view': 'Report', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2024-10-16 18:07:41,616 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-16 18:10:15,292 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-16 20:34:12,589 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-16 20:36:48,443 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-16 20:39:34,249 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-16 20:40:04,794 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-16 20:43:53,738 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-16 20:48:05,954 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 10:37:53,731 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 10:38:37,910 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 10:44:27,797 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 11:58:22,927 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:23,989 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:25,311 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:29,438 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:30,079 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:30,704 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:31,155 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:34,756 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:35,294 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 11:58:35,731 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'data': '{"passanger":"4","flight":"IndiGo-002-10-2024-0034","doctype":"Airplane Ticket","web_form_name":"book-flight-ticket-web-form"}', 'web_form': 'book-flight-ticket-web-form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2024-10-17 12:10:51,225 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"IndiGo-001-09-2024-0005-043- BLR -Airport-123","owner":"Administrator","creation":"2024-10-16 14:29:40.037735","modified":"2024-10-16 21:05:44.084216","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"5","status":"Booked","source_airport_code":" BLR ","flight":"IndiGo-001-09-2024-0005","seat":"10B","destination_airport_code":"Air-2211","flight_price":150,"total_amount":195,"departure_date":"2024-09-29","departure_time":"8:36:15","duration_of_flight":86400,"doctype":"Airplane Ticket","add_ons":[{"name":"t990dabjs4","owner":"Administrator","creation":"2024-10-16 14:29:40.037735","modified":"2024-10-16 21:05:44.084216","modified_by":"Administrator","docstatus":0,"idx":1,"add_on_type":"Flight wi-fi","amount":45,"parent":"IndiGo-001-09-2024-0005-043- BLR -Airport-123","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-10-17T06:40:09.560Z","__unsaved":1,"source_airport":"Flight International","destination_airport":"Airplane Flight"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-17 12:58:48,254 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"name":"IndiGo-001-09-2024-0005-043- BLR -Airport-123","owner":"Administrator","creation":"2024-10-16 14:29:40.037735","modified":"2024-10-16 21:05:44.084216","modified_by":"Administrator","docstatus":0,"idx":0,"passanger":"5","status":"Booked","source_airport_code":"Air-2211","flight":"IndiGo-001-09-2024-0005","seat":"10B","destination_airport_code":" BLR ","flight_price":150,"total_amount":195,"departure_date":"2024-09-29","departure_time":"8:36:15","duration_of_flight":86400,"doctype":"Airplane Ticket","add_ons":[{"name":"t990dabjs4","owner":"Administrator","creation":"2024-10-16 14:29:40.037735","modified":"2024-10-16 21:05:44.084216","modified_by":"Administrator","docstatus":0,"idx":1,"add_on_type":"Flight wi-fi","amount":45,"parent":"IndiGo-001-09-2024-0005-043- BLR -Airport-123","parentfield":"add_ons","parenttype":"Airplane Ticket","doctype":"Airplane Ticket Add-on Item"}],"__last_sync_on":"2024-10-17T07:28:29.449Z","__unsaved":1,"source_airport":"Airplane Flight","destination_airport":"Flight International"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-17 13:31:27,178 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 13:33:45,252 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 13:34:34,507 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 13:34:53,871 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:17:02,816 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:17:55,803 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:18:18,910 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:19:44,506 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:27:07,695 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:31:31,092 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:33:27,693 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:34:03,389 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:35:00,851 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:48:50,637 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 14:54:58,248 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:05:35,696 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:10:57,828 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:14:49,899 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:15:55,983 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:20:57,454 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:21:34,071 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:23:53,361 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 15:25:32,354 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Add-on Popularity', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 21:39:05,531 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'report_name': 'Revenue By Airline', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-10-17 22:11:02,154 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Airplane Flight","name":"new-airplane-flight-bkblayiyel","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Completed","is_published":1,"airplane":"Airindia-044","source_airport_code":"Air-2211","source_airport":"Airplane Flight","destination_airport_code":" BLR ","destination_airport":"Flight International","date_of_departure":"2024-10-30","time_of_departure":"22:10:54","duration":"5s"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-23 13:19:02,578 ERROR frappe New Exception collected in error log
+Site: projectsite
+Form Dict: {'doc': '{"name":"sl474bc4l3","owner":"Administrator","creation":"2024-10-22 22:09:28.750643","modified":"2024-10-22 22:09:28.750643","modified_by":"Administrator","docstatus":0,"idx":0,"start_time":"19:00:00","end_time":"21:00:00","clinic":"Bhilai Nursing Home","doctype":"Schedule Shift","__last_sync_on":"2024-10-23T07:47:48.986Z","title":"1","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-11-05 17:08:00,576 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane Flight', 'name': 'AirAsia-066-10-2024-0067', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-11-05 17:08:11,750 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane Flight', 'name': 'SpiceJET-018-10-2024-0062', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-11-05 17:08:36,360 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane Flight', 'name': 'AirAsia-066-10-2024-0067', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-11-05 17:09:03,054 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane Flight', 'name': 'Airindia-044-10-2024-0060', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-11-05 17:11:30,484 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane Flight', 'name': 'Airindia-044-10-2024-0060', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-11-05 17:11:31,625 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane Flight', 'name': 'AirAsia-066-10-2024-0067', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-11-05 17:12:46,876 ERROR frappe New Exception collected in error log
+Site: AirplaneTask
+Form Dict: {'doctype': 'Airplane Flight', 'name': 'AirAsia-066-10-2024-0067', 'cmd': 'frappe.desk.form.load.getdoc'}

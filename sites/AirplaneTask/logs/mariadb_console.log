@@ -1,0 +1,15 @@
+_HiStOrY_V2_
+airplane_price_doc\040=\040frappe.get_doc("Airplane\040Ticket",\040flight)
+;
+airplane_price_doc\040=\040frappe.get_doc("Airplane\040Ticket",\040flight);
+airplane_price_doc\040=\040frappe.db.get_doc("Airplane\040Ticket",\040flight);
+airplane_price_doc\040=\040frappe.db.get("Airplane\040Ticket",\040flight);
+airplane_price_doc\040=\040frappe.db.get_all("Airplane\040Ticket");
+show\040tables;
+select\040*\040from\040`tabAirplane\040Ticket`;
+DESCRIBE\040`tabAirplane\040Ticket`;
+DESCRIBE\040`tabAirplane\040Ticket\040Add-on\040Item`;
+SELECT\040*\040FROM\040`tabAirplane\040Ticket`;
+DESC\040`tabAirplane\040Ticket`;
+SELECT\040*\040FROM\040`tabAirplane\040Ticket\040Add_on\040Item`;
+SELECT\040*\040FROM\040`tabAirplane\040Ticket\040Add-on\040Item`;

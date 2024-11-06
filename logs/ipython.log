@@ -1,0 +1,179 @@
+2024-09-28 14:16:02,343 INFO ipython === bench console session ===
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", flight)
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_all("Airplane Ticket")
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_all("Airplane Ticket", SpiceJET-018-09-2024-0019-021-Airport-123- BLR)
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_all("Airplane Ticket", 'SpiceJET-018-09-2024-0019-021-Airport-123- BLR')
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", 'SpiceJET-018-09-2024-0019-021-Airport-123- BLR')
+2024-09-28 14:16:02,345 INFO ipython airplane_price_doc
+2024-09-28 14:16:02,345 INFO ipython set airplane_price_doc = frappe.get_doc("Airplane Ticket ", flight_price) 
+2024-09-28 14:16:02,345 INFO ipython set airplane_price_doc = frappe.get_All("Airplane Ticket ")
+2024-09-28 14:16:02,345 INFO ipython set airplane_price_doc = frappe.get_all("Airplane Ticket ")
+2024-09-28 14:16:02,345 INFO ipython set airplane_price_doc = frappe.db.get_all("Airplane Ticket ")
+2024-09-28 14:16:02,345 INFO ipython airplane_price_doc = frappe.db.get_all("Airplane Ticket ")
+2024-09-28 14:16:02,345 INFO ipython airplane_price_doc = frappe.db.get_all("Airplane Ticket")
+2024-09-28 14:16:02,345 INFO ipython airplane_price_doc
+2024-09-28 14:16:02,346 INFO ipython === session end ===
+2024-09-28 18:54:54,961 INFO ipython === bench console session ===
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", flight_price)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", status)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", doc.name)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", name)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket",flight)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket","flight")
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket","Flight")
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket",Flight)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", IndiGo-001-09-2024-0005)
+2024-09-28 18:54:54,963 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", "IndiGo-001-09-2024-0005")
+2024-09-28 18:54:54,963 INFO ipython set airplane_price_doc = frappe.get_doc("Airplane Ticket", flight_id)
+2024-09-28 18:54:54,963 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", flight_id)
+2024-09-28 18:54:54,963 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", flight)
+2024-09-28 18:54:54,963 INFO ipython === session end ===
+2024-10-02 12:28:44,098 INFO ipython === bench console session ===
+2024-10-02 12:28:44,100 INFO ipython frappe.get_doc("Task","task_name")
+2024-10-02 12:28:44,101 INFO ipython import frappe
+2024-10-02 12:28:44,101 INFO ipython frappe.get_doc("Task","task_name")
+2024-10-02 12:28:44,101 INFO ipython frappe.get_doc("Task","Task-001")
+2024-10-02 12:28:44,101 INFO ipython === session end ===
+2024-10-02 12:49:36,380 INFO ipython === bench console session ===
+2024-10-02 12:49:36,382 INFO ipython import frappe
+2024-10-02 12:49:36,383 INFO ipython doc = frappe.get_doc("ToDo", "TASK-001")
+2024-10-02 12:49:36,383 INFO ipython doc = frappe.get_doc("Task", "TASK-001")
+2024-10-02 12:49:36,383 INFO ipython doc = frappe.get_doc("Document api", "kumkum")
+2024-10-02 12:49:36,383 INFO ipython doc = frappe.get_doc("document-api", "kumkum")
+2024-10-02 12:49:36,383 INFO ipython documents = frappe.get_all("document_api", fields=["name"])
+2024-10-02 12:49:36,383 INFO ipython documents = frappe.get_all("Document api", fields=["name"])
+2024-10-02 12:49:36,383 INFO ipython documents = frappe.get_all("Document api", fields=["name"])
+2024-10-02 12:49:36,383 INFO ipython doct= frappe.get_doc("documentapi","shivani")
+2024-10-02 12:49:36,384 INFO ipython import frappe
+2024-10-02 12:49:36,384 INFO ipython from frappe.model.document import Document
+2024-10-02 12:49:36,384 INFO ipython class documentapi(Document):
+    doct= frappe.get_doc("documentapi","shivani")
+    print(doct.name1)
+    
+2024-10-02 12:49:36,384 INFO ipython === session end ===
+2024-10-02 13:04:32,210 INFO ipython === bench console session ===
+2024-10-02 13:04:32,210 INFO ipython  doct= frappe.get_doc("documentapi","shivani")
+2024-10-02 13:04:32,210 INFO ipython import frappe
+from frappe.model.document import Document
+
+
+class documentapi(Document):
+	# pass
+    doct= frappe.get_doc("documentapi","shivani")
+    print(doct.name1)
+2024-10-02 13:04:32,210 INFO ipython === session end ===
+2024-10-02 14:05:35,277 INFO ipython === bench console session ===
+2024-10-02 14:05:35,277 INFO ipython import frappe
+2024-10-02 14:05:35,278 INFO ipython doc = frappe.get_doc("documentapi", "shivani")
+2024-10-02 14:05:35,278 INFO ipython doc = frappe.get_doc("documentapi", "shivani")
+2024-10-02 14:05:35,278 INFO ipython === session end ===
+2024-10-04 17:30:14,924 INFO ipython === bench console session ===
+2024-10-04 17:30:14,924 INFO ipython  doc = frappe.get_doc("testing3", "shivam")
+2024-10-04 17:30:14,925 INFO ipython print(doc.name)
+2024-10-04 17:30:14,925 INFO ipython doc.name="kanha"
+2024-10-04 17:30:14,925 INFO ipython doc.save()
+2024-10-04 17:30:14,925 INFO ipython frappe.db.commit()
+2024-10-04 17:30:14,925 INFO ipython doc.save()
+2024-10-04 17:30:14,925 INFO ipython print(doc.name)
+2024-10-04 17:30:14,925 INFO ipython doc = frappe.new_doc({})
+2024-10-04 17:30:14,925 INFO ipython doc = frappe.new_doc({"doctype": "testing3", "name":"seeta", "age":20})
+2024-10-04 17:30:14,925 INFO ipython doc = frappe.get_doc({"doctype": "testing3", "name":"seeta", "age":20})
+2024-10-04 17:30:14,925 INFO ipython frappe.db.commit()
+2024-10-04 17:30:14,925 INFO ipython doc.insert()
+2024-10-04 17:30:14,925 INFO ipython doc = frappe.get_doc({"doctype": "testing3", "name":"seeta", "age":20})
+2024-10-04 17:30:14,925 INFO ipython doc.insert()
+2024-10-04 17:30:14,926 INFO ipython doc = frappe.get_doc({"doctype": "testing3", "name":"seeta", "age":20})
+2024-10-04 17:30:14,926 INFO ipython doc.save()
+2024-10-04 17:30:14,926 INFO ipython clear
+2024-10-04 17:30:14,926 INFO ipython === session end ===
+2024-10-04 17:34:18,331 INFO ipython === bench console session ===
+2024-10-04 17:34:18,331 INFO ipython doc =frappe.get_doc("testing3","swati")
+2024-10-04 17:34:18,332 INFO ipython doc.age=20
+2024-10-04 17:34:18,332 INFO ipython print(doc.age)
+2024-10-04 17:34:18,332 INFO ipython doc.save()
+2024-10-04 17:34:18,333 INFO ipython doc.notify_update()
+2024-10-04 17:34:18,333 INFO ipython frappe.db.commit()
+2024-10-04 17:34:18,333 INFO ipython === session end ===
+2024-10-05 09:56:32,713 INFO ipython === bench console session ===
+2024-10-05 09:56:32,716 INFO ipython doc = frappe.new_doc("triel doc")
+2024-10-05 09:56:32,716 INFO ipython print(doc.age)
+2024-10-05 09:56:32,717 INFO ipython print(doc)
+2024-10-05 09:56:32,717 INFO ipython doc.save()
+2024-10-05 09:56:32,717 INFO ipython print(doc)
+2024-10-05 09:56:32,717 INFO ipython doc.name="aarti"
+2024-10-05 09:56:32,717 INFO ipython doc.db.commit
+2024-10-05 09:56:32,717 INFO ipython doc.db.commit()
+2024-10-05 09:56:32,717 INFO ipython doc.name="aarti"
+2024-10-05 09:56:32,717 INFO ipython doc.save()
+2024-10-05 09:56:32,717 INFO ipython doc.name="aarti"
+2024-10-05 09:56:32,717 INFO ipython === session end ===
+2024-10-05 11:34:39,355 INFO ipython === bench console session ===
+2024-10-05 11:34:39,365 INFO ipython doc = frappe.get_doc("testing3", "kumkum")
+2024-10-05 11:34:39,365 INFO ipython print(doc.name)
+2024-10-05 11:34:39,365 INFO ipython print(doc.age)
+2024-10-05 11:34:39,365 INFO ipython doc.age=25
+2024-10-05 11:34:39,365 INFO ipython print(doc.age)
+2024-10-05 11:34:39,365 INFO ipython frappe.db.get_list("testing3")
+2024-10-05 11:34:39,365 INFO ipython frappe.db.get_list('testing3',
+    filters={
+        'age': 25
+    } 
+    )
+2024-10-05 11:34:39,365 INFO ipython frappe.db.get_list('testing3',
+    filters={
+        'age': 18
+        
+    } 
+    )
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_list('testing3',
+    filters={
+        'age': 15
+        
+    } 
+    )
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'swati', 'age')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'kanha', 'name')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'kanha', 'id')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'kanha', 'age')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'Kanha', 'age')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'Kanha', 'age')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'shivam', 'name')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'shivam', 'id')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'shivam', 'Id')
+2024-10-05 11:34:39,366 INFO ipython frappe.db.get_value('testing3', 'shivam', 'ID')
+2024-10-05 11:34:39,367 INFO ipython frappe.db.get_value('testing3', 'shivam', 'age')
+2024-10-05 11:34:39,367 INFO ipython frappe.db.get_single_value('testing3', 'kumkum')
+2024-10-05 11:34:39,367 INFO ipython frappe.db.get_single_value('testing3', 'shivam')
+2024-10-05 11:34:39,367 INFO ipython doc = frappe.db.get_list("testing3")
+2024-10-05 11:34:39,367 INFO ipython  print(doc)
+2024-10-05 11:34:39,367 INFO ipython frappe.db.get_list('testing3',filters={'age': 15})
+2024-10-05 11:34:39,367 INFO ipython frappe.db.get_list('testing3',filters={'age': 15})
+2024-10-05 11:34:39,367 INFO ipython frappe.db.set_value('testing3', '4lmni29i3h', 'name', 'bharti')
+2024-10-05 11:34:39,367 INFO ipython frappe.db.set_value('testing3', '4lmni29i3h', 'name', 'bharti')
+2024-10-05 11:34:39,367 INFO ipython frappe.db.count('testing3')
+2024-10-05 11:34:39,367 INFO ipython frappe.db.count('testing', {'age': '15'})
+2024-10-05 11:34:39,368 INFO ipython frappe.db.count('testing', {'name': 'kumkum'})
+2024-10-05 11:34:39,368 INFO ipython frappe.db.count('testing', {'name': 'swati'})
+2024-10-05 11:34:39,368 INFO ipython === session end ===
+2024-10-17 11:11:03,862 INFO ipython === bench console session ===
+2024-10-17 11:11:03,862 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","Airline" ])
+2024-10-17 11:11:03,862 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight" ])
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airline" ], filters={"docstatus":1})
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airplane" ], filters={"docstatus":1})
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airplane" ], filters={"docstatus":0})
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airplane" ], filters={"docstatus":2})
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane AS Airline" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","airline" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight AS airline" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 11:11:03,863 INFO ipython === session end ===
+2024-10-17 12:48:34,225 INFO ipython === bench console session ===
+2024-10-17 12:48:34,226 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 12:48:34,226 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","airline" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airplane" ], filters={"docstatus":2})
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airline" ], filters={"docstatus":2})
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airline" ], filters={"docstatus":1})
+2024-10-17 12:48:34,228 INFO ipython === session end ===

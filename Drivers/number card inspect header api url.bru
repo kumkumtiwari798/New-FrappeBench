@@ -1,0 +1,32 @@
+meta {
+  name: number card inspect header api url
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://127.0.0.1:8001/api/method/frappe.desk.doctype.number_card.number_card.get_percentage_difference
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: token a2e18f18d84255c:7a41733a72dff90
+}
+
+body:json {
+  {
+    "doc": {
+      "name": "Number of Vehicles"  
+    },
+    "filters":{
+      
+    },
+    "result": {
+      "previous_value": 23,  
+      "current_value": 120  
+    }
+  }
+  
+  
+}

@@ -1,0 +1,10 @@
+{
+ "allow_tests": true,
+ "backup_encryption_key": "Cu0zm-hRauTFF52wcBZIPf6JX7gnWBVgPoWxZ63WWRc=",
+ "db_name": "_9c1b206df279fc7a",
+ "db_password": "t1ymZpp3GrhOL592",
+ "db_type": "mariadb",
+ "db_user": "_9c1b206df279fc7a",
+ "developer_mode": 1,
+ "encryption_key": "2WuMe0GxuC_cea2pzuLAAJKarvMgE0Yi0GrboUONg0w="
+}

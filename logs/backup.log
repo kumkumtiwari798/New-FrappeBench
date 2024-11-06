@@ -1,0 +1,1846 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240731_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-07-31 12:00:02.898394
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240731_120002-MySite-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240731_120002-MySite-database.sql.gz 235.3KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240801_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-01 12:00:01.939635
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240801_120001-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240801_120001-MySite-database.sql.gz 242.7KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240802_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-02 12:00:02.082767
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240802_120001-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240802_120001-MySite-database.sql.gz 252.9KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240806_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-06 12:00:01.805785
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240806_120001-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240806_120001-MySite-database.sql.gz 253.7KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240806_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-06 18:00:02.853127
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240806_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240806_180002-MySite-database.sql.gz 257.4KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240807_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-07 12:00:03.670995
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240807_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240807_120002-MySite-database.sql.gz 263.1KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240807_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-07 18:00:03.001314
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240807_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240807_180002-MySite-database.sql.gz 268.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240808_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-08 12:00:02.815687
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240808_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240808_120001-AirplaneTask-database.sql.gz 223.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240807_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240807_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240807_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240806_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240806_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240807_120002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240808_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-08 12:00:03.673250
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240808_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240808_120002-MySite-database.sql.gz 272.8KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240809_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-09 18:00:01.963353
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240809_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240809_180001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240807_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240807_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240807_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240808_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240808_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240807_120002-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240809_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-09 18:00:02.370395
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240809_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240809_180002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240810_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-10 12:00:02.662644
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240810_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240810_120002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240809_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240809_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240810_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-10 12:00:03.005727
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240810_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240810_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240812_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-12 18:00:02.103441
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240812_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240812_180001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240810_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240810_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240809_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240809_180002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240812_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-12 18:00:02.541342
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240812_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240812_180002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240813_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-13 12:00:02.555677
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240813_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240813_120002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240812_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240812_180002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240813_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-13 12:00:02.973992
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240813_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240813_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240813_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-13 18:00:01.929495
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240813_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240813_180001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240812_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240813_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240812_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240813_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240813_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-13 18:00:02.272464
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240813_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240813_180002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240814_000001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-14 00:00:01.880292
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240814_000001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240814_000001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240813_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240812_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240813_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240812_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240813_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240813_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240814_000001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-14 00:00:02.186709
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240814_000001-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240814_000001-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240814_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-14 12:00:02.559750
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240814_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240814_120002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240813_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240814_000001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240813_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240814_000001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240813_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240813_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240814_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-14 12:00:02.983013
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240814_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240814_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240814_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-14 18:00:02.017565
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240814_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240814_180001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240813_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240814_000001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240813_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240814_000001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240813_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240813_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240814_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240814_120002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240814_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-14 18:00:02.332386
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240814_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240814_180002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240816_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-16 12:00:03.783010
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240816_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240816_120002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240813_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240814_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240814_000001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240814_000001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240813_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240814_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240814_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240814_120002-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240816_120004-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-16 12:00:05.068224
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240816_120004-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240816_120004-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240816_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-16 18:00:02.749058
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240816_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240816_180002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240816_120004-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240816_120004-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240816_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-16 18:00:03.103337
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240816_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240816_180002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240820_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-20 12:00:02.199005
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240820_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240820_120001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240816_120004-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240816_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240816_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240816_120004-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240820_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-20 12:00:02.552994
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240820_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240820_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240821_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-21 12:00:02.181293
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240821_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240821_120001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240820_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240820_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240821_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-21 12:00:02.584113
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240821_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240821_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240821_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-21 18:00:02.766658
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240821_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240821_180002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240820_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240821_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240821_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240820_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240821_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-21 18:00:03.385812
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240821_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240821_180002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240822_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-22 12:00:04.103208
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240822_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240822_120002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240821_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240821_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240821_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240821_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240822_120004-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-22 12:00:05.536065
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240822_120004-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240822_120004-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240822_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-22 18:00:02.064527
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240822_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240822_180001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240821_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240822_120004-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240822_120004-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240821_180002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240822_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-22 18:00:02.403574
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240822_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240822_180002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240823_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-23 18:00:02.232433
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240823_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240823_180001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240821_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240822_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240822_120004-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240822_120004-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240822_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240821_180002-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240823_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-23 18:00:02.688284
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240823_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240823_180002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240824_000002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-24 00:00:02.414292
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240824_000002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240824_000002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240822_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240822_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240823_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240823_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240824_000002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-24 00:00:02.726022
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240824_000002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240824_000002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240824_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-24 12:00:01.816140
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240824_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240824_120001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240824_000002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240823_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240823_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240824_000002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240824_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-24 12:00:02.158258
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240824_120001-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240824_120001-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240824_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-24 18:00:01.902890
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240824_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240824_180001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240824_000002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240823_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240824_120001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240824_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240823_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240824_000002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240824_180001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-24 18:00:02.250373
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240824_180001-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240824_180001-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240826_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-26 12:00:02.417740
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240826_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240826_120002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240824_000002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240823_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240824_120001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240824_180001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240824_120001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240824_180001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240823_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240824_000002-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240826_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-26 12:00:02.721984
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240826_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240826_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240829_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-29 12:00:02.289334
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240829_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240829_120001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240826_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240826_120002-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240829_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-29 12:00:02.629308
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240829_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240829_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240830_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-08-30 12:00:02.652318
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240830_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240830_120002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240829_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240829_120002-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240830_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-08-30 12:00:02.992409
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240830_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240830_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240901_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-01 12:00:02.593041
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240901_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240901_120002-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240830_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240830_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240901_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-01 12:00:02.907216
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240901_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240901_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240902_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-02 12:00:02.105699
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240902_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240902_120001-AirplaneTask-database.sql.gz 232.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240901_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240901_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240902_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-02 12:00:02.408631
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240902_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240902_120002-MySite-database.sql.gz 274.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240916_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-16 12:00:02.239492
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240916_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240916_120001-AirplaneTask-database.sql.gz 234.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240902_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240902_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240901_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240901_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240916_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-16 12:00:02.753196
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240916_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240916_120002-MySite-database.sql.gz 261.8KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240916_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-16 18:00:02.232910
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240916_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240916_180001-AirplaneTask-database.sql.gz 235.9KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240916_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240916_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240916_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-16 18:00:02.670112
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240916_180002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240916_180002-MySite-database.sql.gz 263.0KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240918_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-18 12:00:02.674937
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240918_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240918_120002-AirplaneTask-database.sql.gz 241.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240916_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240916_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240916_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240916_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240918_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-18 12:00:03.131528
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240918_120002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240918_120002-MySite-database.sql.gz 286.6KiB
+Backup for Site MySite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240918_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-18 12:00:03.522673
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240918_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240918_120003-mysite_localhost-database.sql.gz 225.3KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240919_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-19 12:00:03.795029
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240919_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240919_120002-AirplaneTask-database.sql.gz 244.7KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240918_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240918_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240918_152731-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240918_152731-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240919_120003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-19 12:00:05.156998
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240919_120003-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240919_120003-MySite-database.sql.gz 315.6KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240918_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240918_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240919_120005-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-19 12:00:06.346797
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240919_120005-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240919_120005-mysite_localhost-database.sql.gz 228.8KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240920_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-20 12:00:01.748525
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240920_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240920_120001-AirplaneTask-database.sql.gz 246.5KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240919_120003-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240918_152731-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240919_120003-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240918_152731-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240920_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-20 12:00:02.100380
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240920_120001-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240920_120001-MySite-database.sql.gz 324.0KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240919_120005-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240919_120005-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240920_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-20 12:00:02.429783
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240920_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240920_120002-mysite_localhost-database.sql.gz 230.7KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240920_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-20 18:00:01.897052
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240920_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240920_180001-AirplaneTask-database.sql.gz 247.5KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240920_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240919_120003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240919_120003-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240920_120001-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240920_180001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-20 18:00:02.324492
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240920_180001-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240920_180001-MySite-database.sql.gz 325.4KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240920_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240920_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240919_120005-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240919_120005-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240920_180002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-20 18:00:02.664656
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240920_180002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240920_180002-mysite_localhost-database.sql.gz 231.6KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240921_000001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-21 00:00:02.046732
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240921_000001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240921_000001-AirplaneTask-database.sql.gz 247.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240920_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240920_180001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240920_180001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240920_120001-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240921_000002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-21 00:00:02.325868
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240921_000002-MySite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240921_000002-MySite-database.sql.gz 327.0KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240920_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240920_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240920_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240920_180002-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240921_000002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-21 00:00:02.697813
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240921_000002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240921_000002-mysite_localhost-database.sql.gz 231.8KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240921_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-21 12:00:02.543125
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240921_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240921_120002-AirplaneTask-database.sql.gz 247.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240920_120001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240920_180001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240921_000002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240920_180001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240921_000002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240920_120001-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240921_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-21 12:00:03.086574
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240921_120002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240921_120002-MySite-database.sql.gz 334.2KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240921_000002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240920_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240920_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240921_000002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240920_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240920_180002-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240921_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-21 12:00:03.398237
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240921_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240921_120003-mysite_localhost-database.sql.gz 231.8KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240922_000001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-22 00:00:01.864842
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240922_000001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240922_000001-AirplaneTask-database.sql.gz 248.2KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240921_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240920_180001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240921_000002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240920_180001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240921_000002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240921_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240922_000001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-22 00:00:02.267596
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240922_000001-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240922_000001-MySite-database.sql.gz 341.3KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240921_000002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240920_180002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240921_000002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240921_120003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240921_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240920_180002-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240922_000002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-22 00:00:02.668828
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240922_000002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240922_000002-mysite_localhost-database.sql.gz 232.4KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240923_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-23 12:00:03.725535
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240923_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240923_120002-AirplaneTask-database.sql.gz 250.1KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240922_000001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240921_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240921_000002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240922_000001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240921_000002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240921_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240923_120003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-23 12:00:05.024214
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240923_120003-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240923_120003-MySite-database.sql.gz 357.7KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240921_000002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240921_000002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240922_000002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240921_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240921_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240922_000002-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240923_120005-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-23 12:00:06.368434
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240923_120005-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240923_120005-mysite_localhost-database.sql.gz 234.3KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240924_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-24 12:00:01.852346
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240924_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240924_120001-AirplaneTask-database.sql.gz 246.4KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240923_120003-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240923_120003-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240924_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-24 12:00:02.230246
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240924_120001-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240924_120001-MySite-database.sql.gz 358.1KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240923_120005-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240923_120005-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240924_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-24 12:00:02.494468
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240924_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240924_120002-mysite_localhost-database.sql.gz 234.1KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240925_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-25 12:00:01.937017
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240925_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240925_120001-AirplaneTask-database.sql.gz 245.5KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240923_120003-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240923_120003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240924_120001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240924_120001-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240925_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-25 12:00:02.274104
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240925_120001-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240925_120001-MySite-database.sql.gz 359.3KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240923_120005-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240924_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240924_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240923_120005-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240925_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-25 12:00:02.580901
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240925_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240925_120002-mysite_localhost-database.sql.gz 233.3KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240926_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-26 12:00:01.688205
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240926_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240926_120001-AirplaneTask-database.sql.gz 276.7KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240925_120001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240925_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240924_120001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240924_120001-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240926_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-26 12:00:02.096288
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240926_120001-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240926_120001-MySite-database.sql.gz 359.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240925_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240924_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240925_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240924_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240926_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-26 12:00:02.536676
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240926_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240926_120002-mysite_localhost-database.sql.gz 233.4KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240927_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-27 12:00:01.991841
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240927_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240927_120001-AirplaneTask-database.sql.gz 291.1KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240925_120001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240925_120001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240926_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240926_120001-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240927_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-27 12:00:02.472008
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240927_120001-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240927_120001-MySite-database.sql.gz 360.1KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240926_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240925_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240925_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240926_120002-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240927_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-27 12:00:02.796906
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240927_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240927_120002-mysite_localhost-database.sql.gz 233.5KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240927_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-27 18:00:02.638018
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240927_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240927_180002-AirplaneTask-database.sql.gz 293.2KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240927_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240927_120001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240926_120001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240926_120001-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240927_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-27 18:00:03.012297
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240927_180002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240927_180002-MySite-database.sql.gz 361.1KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240927_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240926_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240927_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240926_120002-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240927_180003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-27 18:00:03.444071
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240927_180003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240927_180003-mysite_localhost-database.sql.gz 234.5KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240928_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-28 12:00:01.818850
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240928_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240928_120001-AirplaneTask-database.sql.gz 299.8KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240927_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240927_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240927_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240927_120001-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240928_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-28 12:00:02.400599
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240928_120001-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240928_120001-MySite-database.sql.gz 361.4KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240927_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240927_180003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240927_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240927_180003-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240928_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-28 12:00:02.848491
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240928_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240928_120002-mysite_localhost-database.sql.gz 234.8KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240928_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-28 18:00:01.824839
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240928_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240928_180001-AirplaneTask-database.sql.gz 305.2KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240927_120001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240927_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240928_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240928_120001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240927_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240927_120001-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240928_180001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-28 18:00:02.186341
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240928_180001-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240928_180001-MySite-database.sql.gz 361.4KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240927_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240927_180003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240928_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240927_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240928_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240927_180003-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240928_180002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-28 18:00:02.535419
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240928_180002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240928_180002-mysite_localhost-database.sql.gz 234.8KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240929_000001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-29 00:00:03.277825
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240929_000001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240929_000001-AirplaneTask-database.sql.gz 308.1KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240927_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240928_180001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240928_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240928_120001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240927_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240928_180001-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240929_000003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-29 00:00:04.731048
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240929_000003-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240929_000003-MySite-database.sql.gz 365.4KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240927_180003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240928_180002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240928_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240928_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20240928_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240927_180003-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240929_000004-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-29 00:00:05.982870
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240929_000004-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240929_000004-mysite_localhost-database.sql.gz 234.8KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240930_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-30 12:00:02.652564
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240930_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240930_120002-AirplaneTask-database.sql.gz 311.6KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240929_000003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240929_000003-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240928_180001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240928_120001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240928_120001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240928_180001-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240930_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-30 12:00:03.189090
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240930_120002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240930_120002-MySite-database.sql.gz 373.7KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240928_180002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240928_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240928_180002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240929_000004-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240928_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240929_000004-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240930_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-30 12:00:03.643649
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240930_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240930_120003-mysite_localhost-database.sql.gz 234.3KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20240930_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-09-30 18:00:03.185724
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240930_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20240930_180002-AirplaneTask-database.sql.gz 316.4KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240930_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240930_120002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20240930_180003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-09-30 18:00:03.759640
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240930_180003-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20240930_180003-MySite-database.sql.gz 380.3KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240930_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240930_120003-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20240930_180003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-09-30 18:00:04.164287
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240930_180003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20240930_180003-mysite_localhost-database.sql.gz 234.3KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241001_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-01 18:00:02.438423
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241001_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241001_180001-AirplaneTask-database.sql.gz 318.7KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240930_180003-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20240930_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20240930_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20240930_180003-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241001_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-01 18:00:03.050688
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241001_180002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241001_180002-MySite-database.sql.gz 391.2KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240930_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240930_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20240930_180003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20240930_180003-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241001_180003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-01 18:00:03.744460
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241001_180003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241001_180003-mysite_localhost-database.sql.gz 234.6KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241002_000002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-02 00:00:04.623568
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241002_000002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241002_000002-AirplaneTask-database.sql.gz 319.7KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20240930_180003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241001_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241001_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20240930_180003-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241002_000004-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-02 00:00:06.083784
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241002_000004-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241002_000004-MySite-database.sql.gz 392.5KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20240930_180003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20240930_180003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241001_180003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241001_180003-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241002_000006-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-02 00:00:07.623982
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241002_000006-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241002_000006-mysite_localhost-database.sql.gz 234.6KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241002_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-02 12:00:02.441728
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241002_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241002_120002-AirplaneTask-database.sql.gz 332.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241002_000004-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241001_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241002_000004-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241001_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241002_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-02 12:00:02.826031
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241002_120002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241002_120002-MySite-database.sql.gz 389.3KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241002_000006-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241001_180003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241002_000006-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241001_180003-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241002_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-02 12:00:03.107058
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241002_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241002_120002-mysite_localhost-database.sql.gz 232.2KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241005_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-05 12:00:02.635389
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241005_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241005_120002-AirplaneTask-database.sql.gz 328.4KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241002_000004-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241001_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241002_000004-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241001_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241002_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241002_120002-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241005_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-05 12:00:03.052715
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241005_120002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241005_120002-MySite-database.sql.gz 403.1KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241002_000006-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241002_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241002_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241001_180003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241002_000006-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241001_180003-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241005_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-05 12:00:03.418839
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241005_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241005_120003-mysite_localhost-database.sql.gz 227.6KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241006_000001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-06 00:00:01.811790
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241006_000001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241006_000001-AirplaneTask-database.sql.gz 330.3KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241005_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241005_120002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241006_000001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-06 00:00:02.252476
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241006_000001-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241006_000001-MySite-database.sql.gz 426.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241005_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241005_120003-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241006_000002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-06 00:00:02.547512
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241006_000002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241006_000002-mysite_localhost-database.sql.gz 225.9KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241008_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-08 12:00:02.441283
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241008_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241008_120001-AirplaneTask-database.sql.gz 330.3KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241006_000001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241005_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241006_000001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241005_120002-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241008_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-08 12:00:03.138347
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241008_120002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241008_120002-MySite-database.sql.gz 412.7KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241006_000002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241005_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241006_000002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241005_120003-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241008_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-08 12:00:03.621677
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241008_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241008_120003-mysite_localhost-database.sql.gz 225.9KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241008_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-08 18:00:02.731708
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241008_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241008_180002-AirplaneTask-database.sql.gz 330.3KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241008_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241008_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241008_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-08 18:00:03.212985
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241008_180002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241008_180002-MySite-database.sql.gz 412.7KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241008_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241008_120003-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241008_180003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-08 18:00:03.675107
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241008_180003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241008_180003-mysite_localhost-database.sql.gz 225.9KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241009_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-09 12:00:02.254892
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241009_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241009_120001-AirplaneTask-database.sql.gz 322.2KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241008_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241008_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241008_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241008_180002-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241009_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-09 12:00:02.758114
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241009_120002-MySite-site_config_backup.json 216.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241009_120002-MySite-database.sql.gz 407.0KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241008_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241008_180003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241008_180003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241008_120003-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241009_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-09 12:00:03.128036
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241009_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241009_120002-mysite_localhost-database.sql.gz 225.3KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241010_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-10 12:00:02.320617
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241010_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241010_120001-AirplaneTask-database.sql.gz 323.5KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241009_203804-MySite-private-files.tar is recent
+File ./MySite/private/backups/20241009_203804-MySite-files.tar is recent
+File ./MySite/private/backups/20241009_203804-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241009_203804-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241009_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241009_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241010_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-10 12:00:02.799240
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241010_120002-MySite-site_config_backup.json 290.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241010_120002-MySite-database.sql.gz 422.5KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241008_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241009_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241008_180003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241008_180003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241008_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241009_120002-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241010_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-10 12:00:03.162636
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241010_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241010_120002-mysite_localhost-database.sql.gz 225.1KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241015_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-15 12:00:01.812994
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241015_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241015_120001-AirplaneTask-database.sql.gz 309.2KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241009_203804-MySite-private-files.tar is older than 24 hours
+File ./MySite/private/backups/20241010_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241009_203804-MySite-files.tar is older than 24 hours
+File ./MySite/private/backups/20241009_203804-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241009_203804-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241010_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241009_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241009_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241015_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-15 12:00:02.186909
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241015_120001-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241015_120001-MySite-database.sql.gz 408.6KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241009_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241010_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241009_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241010_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241015_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-15 12:00:02.499797
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241015_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241015_120002-mysite_localhost-database.sql.gz 224.0KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241015_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-15 18:00:02.488651
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241015_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241015_180002-AirplaneTask-database.sql.gz 309.4KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241015_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241015_120001-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241015_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-15 18:00:02.912929
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241015_180002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241015_180002-MySite-database.sql.gz 412.4KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241015_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241015_120002-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241015_180002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-15 18:00:03.216749
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241015_180002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241015_180002-mysite_localhost-database.sql.gz 224.1KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241016_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-16 12:00:02.329814
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241016_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241016_120001-AirplaneTask-database.sql.gz 313.9KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241015_120001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241015_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241015_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241015_120001-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241016_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-16 12:00:02.781068
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241016_120002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241016_120002-MySite-database.sql.gz 423.4KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241015_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241015_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241015_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241015_180002-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241016_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-16 12:00:03.122821
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241016_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241016_120002-mysite_localhost-database.sql.gz 224.1KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241016_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-16 18:00:02.309140
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241016_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241016_180001-AirplaneTask-database.sql.gz 319.3KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241015_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241015_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241016_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241016_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241016_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-16 18:00:02.790578
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241016_180002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241016_180002-MySite-database.sql.gz 423.9KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241015_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241016_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241015_180002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241016_120002-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241016_180002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-16 18:00:03.211952
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241016_180002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241016_180002-mysite_localhost-database.sql.gz 223.7KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241017_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-17 12:00:01.782114
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241017_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241017_120001-AirplaneTask-database.sql.gz 343.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241016_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241015_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241016_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241015_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241016_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241016_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241017_120001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-17 12:00:02.238638
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241017_120001-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241017_120001-MySite-database.sql.gz 418.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241015_180002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241016_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241016_180002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241015_180002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241016_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241016_120002-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241017_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-17 12:00:02.602132
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241017_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241017_120002-mysite_localhost-database.sql.gz 223.7KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241017_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-17 18:00:02.472475
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241017_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241017_180002-AirplaneTask-database.sql.gz 405.1KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241016_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241017_120001-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241016_180002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241017_120001-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241016_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241016_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241017_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-17 18:00:02.894424
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241017_180002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241017_180002-MySite-database.sql.gz 419.7KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241017_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241016_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241016_180002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241016_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241017_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241016_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241017_180002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-17 18:00:03.226361
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241017_180002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241017_180002-mysite_localhost-database.sql.gz 223.9KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241018_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-18 12:00:04.414975
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241018_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241018_120002-AirplaneTask-database.sql.gz 416.1KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241016_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241017_120001-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241017_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241016_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241017_120001-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241017_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241018_120004-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-18 12:00:05.844963
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241018_120004-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241018_120004-MySite-database.sql.gz 424.5KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241017_120002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241017_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241017_180002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241016_180002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241016_180002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241017_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241018_120005-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-18 12:00:07.000483
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241018_120005-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241018_120005-mysite_localhost-database.sql.gz 223.9KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241019_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-19 12:00:02.600932
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241019_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241019_120002-AirplaneTask-database.sql.gz 417.9KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241017_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241018_120004-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241017_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241018_120004-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241019_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-19 12:00:03.121750
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241019_120002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241019_120002-MySite-database.sql.gz 424.4KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241018_120005-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241017_180002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241017_180002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241018_120005-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241019_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-19 12:00:03.588087
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241019_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241019_120003-mysite_localhost-database.sql.gz 224.4KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241021_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-21 12:00:03.054650
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241021_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241021_120002-AirplaneTask-database.sql.gz 418.1KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241018_120004-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241019_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241019_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241018_120004-MySite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241021_120003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-21 12:00:03.737268
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241021_120003-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241021_120003-MySite-database.sql.gz 424.6KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241018_120005-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241019_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241019_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241018_120005-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241021_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-21 12:00:04.356016
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241021_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241021_120003-mysite_localhost-database.sql.gz 224.4KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241022_120001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-22 12:00:02.195827
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241022_120001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241022_120001-AirplaneTask-database.sql.gz 419.2KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241021_120003-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241021_120003-MySite-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241022_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-22 12:00:02.741982
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241022_120002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241022_120002-MySite-database.sql.gz 423.9KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241021_120003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241021_120003-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241022_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-22 12:00:03.277826
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241022_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241022_120002-mysite_localhost-database.sql.gz 225.1KiB
+Backup for Site mysite.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241022_120003-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-10-22 12:00:03.739159
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241022_120003-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241022_120003-projectsite-database.sql.gz 219.4KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241023_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-23 12:00:02.760260
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241023_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241023_120002-AirplaneTask-database.sql.gz 418.3KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241021_120003-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241021_120003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241022_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241022_120002-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241023_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-23 12:00:03.259772
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241023_120002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241023_120002-MySite-database.sql.gz 421.1KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241021_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241021_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241022_120002-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241022_120002-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241023_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-23 12:00:03.735812
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241023_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241023_120003-mysite_localhost-database.sql.gz 224.8KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241022_120003-projectsite-database.sql.gz is older than 24 hours
+File ./projectsite/private/backups/20241022_120003-projectsite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241023_120003-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-10-23 12:00:04.148346
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241023_120003-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241023_120003-projectsite-database.sql.gz 237.5KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241023_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-23 18:00:02.051664
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241023_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241023_180001-AirplaneTask-database.sql.gz 418.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241023_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241023_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241023_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-23 18:00:02.534245
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241023_180002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241023_180002-MySite-database.sql.gz 422.2KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241023_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241023_120003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241022_120002-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241022_120002-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241023_180002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-23 18:00:02.835698
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241023_180002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241023_180002-mysite_localhost-database.sql.gz 224.9KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241023_120003-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241023_120003-projectsite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241023_180002-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-10-23 18:00:03.195231
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241023_180002-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241023_180002-projectsite-database.sql.gz 245.0KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241024_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-24 12:00:02.905105
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241024_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241024_120002-AirplaneTask-database.sql.gz 418.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241023_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241023_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241023_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241023_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241024_120003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-24 12:00:03.551491
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241024_120003-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241024_120003-MySite-database.sql.gz 422.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241023_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241023_120003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241023_180002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241023_180002-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241024_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-24 12:00:04.195524
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241024_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241024_120003-mysite_localhost-database.sql.gz 224.9KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241023_180002-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241023_120003-projectsite-site_config_backup.json is older than 24 hours
+File ./projectsite/private/backups/20241023_120003-projectsite-database.sql.gz is older than 24 hours
+File ./projectsite/private/backups/20241023_180002-projectsite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241024_120004-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-10-24 12:00:04.763622
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241024_120004-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241024_120004-projectsite-database.sql.gz 246.4KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241024_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-24 18:00:02.619155
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241024_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241024_180002-AirplaneTask-database.sql.gz 418.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241024_120003-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241023_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241023_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241023_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241023_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241024_120003-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241024_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-24 18:00:03.079841
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241024_180002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241024_180002-MySite-database.sql.gz 422.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241023_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241024_120003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241024_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241023_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241023_180002-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241023_180002-mysite_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241024_180003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-24 18:00:03.397031
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241024_180003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241024_180003-mysite_localhost-database.sql.gz 224.9KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241024_120004-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241023_180002-projectsite-site_config_backup.json is older than 24 hours
+File ./projectsite/private/backups/20241024_120004-projectsite-database.sql.gz is recent
+File ./projectsite/private/backups/20241023_180002-projectsite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241024_180003-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-10-24 18:00:03.737452
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241024_180003-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241024_180003-projectsite-database.sql.gz 246.4KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241026_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-26 12:00:03.031288
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241026_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241026_120002-AirplaneTask-database.sql.gz 418.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241024_120003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241024_180002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241024_180002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241024_120003-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241026_120003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-26 12:00:03.637079
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241026_120003-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241026_120003-MySite-database.sql.gz 422.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241024_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241024_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241024_180003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241024_180003-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241026_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-26 12:00:04.114389
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241026_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241026_120003-mysite_localhost-database.sql.gz 224.9KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241024_120004-projectsite-site_config_backup.json is older than 24 hours
+File ./projectsite/private/backups/20241024_180003-projectsite-site_config_backup.json is older than 24 hours
+File ./projectsite/private/backups/20241024_120004-projectsite-database.sql.gz is older than 24 hours
+File ./projectsite/private/backups/20241024_180003-projectsite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241026_120004-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-10-26 12:00:04.631085
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241026_120004-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241026_120004-projectsite-database.sql.gz 246.4KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241027_000002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-27 00:00:03.086658
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241027_000002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241027_000002-AirplaneTask-database.sql.gz 418.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241026_120003-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241026_120003-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241027_000003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-27 00:00:03.718802
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241027_000003-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241027_000003-MySite-database.sql.gz 422.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241026_120003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241026_120003-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241027_000003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-27 00:00:04.171649
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241027_000003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241027_000003-mysite_localhost-database.sql.gz 224.9KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241026_120004-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241026_120004-projectsite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241027_000004-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-10-27 00:00:04.607350
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241027_000004-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241027_000004-projectsite-database.sql.gz 246.4KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241028_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-10-28 12:00:03.078982
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241028_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241028_120002-AirplaneTask-database.sql.gz 418.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241027_000003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241027_000003-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241026_120003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241026_120003-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241028_120003-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-10-28 12:00:03.715731
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241028_120003-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241028_120003-MySite-database.sql.gz 422.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241026_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241027_000003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241026_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241027_000003-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241028_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-10-28 12:00:04.226263
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241028_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241028_120003-mysite_localhost-database.sql.gz 224.9KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241027_000004-projectsite-database.sql.gz is older than 24 hours
+File ./projectsite/private/backups/20241026_120004-projectsite-site_config_backup.json is older than 24 hours
+File ./projectsite/private/backups/20241026_120004-projectsite-database.sql.gz is older than 24 hours
+File ./projectsite/private/backups/20241027_000004-projectsite-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241028_120004-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-10-28 12:00:04.688042
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241028_120004-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241028_120004-projectsite-database.sql.gz 246.4KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241105_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-11-05 12:00:02.916057
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241105_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241105_120002-AirplaneTask-database.sql.gz 418.0KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241028_120003-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241028_120003-MySite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241105_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-11-05 12:00:03.416642
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241105_120002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241105_120002-MySite-database.sql.gz 422.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241028_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241028_120003-mysite_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241105_120003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-11-05 12:00:03.879079
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241105_120003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241105_120003-mysite_localhost-database.sql.gz 224.9KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241028_120004-projectsite-site_config_backup.json is older than 24 hours
+File ./projectsite/private/backups/20241028_120004-projectsite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241105_120003-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-11-05 12:00:04.381333
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241105_120003-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241105_120003-projectsite-database.sql.gz 246.4KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241105_180002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-11-05 18:00:02.604989
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241105_180002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241105_180002-AirplaneTask-database.sql.gz 380.8KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241105_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241105_120002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241105_180002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-11-05 18:00:03.037449
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241105_180002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241105_180002-MySite-database.sql.gz 395.0KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241105_120003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241105_120003-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241105_180003-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-11-05 18:00:03.304430
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241105_180003-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241105_180003-mysite_localhost-database.sql.gz 222.8KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241105_120003-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241105_120003-projectsite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241105_180003-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-11-05 18:00:03.597699
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241105_180003-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241105_180003-projectsite-database.sql.gz 244.7KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241106_120002-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-11-06 12:00:02.452330
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241106_120002-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241106_120002-AirplaneTask-database.sql.gz 395.7KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241105_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241105_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241105_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241105_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241106_120002-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-11-06 12:00:02.932577
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241106_120002-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241106_120002-MySite-database.sql.gz 396.1KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241105_120003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241105_120003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241105_180003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241105_180003-mysite_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241106_120002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-11-06 12:00:03.282417
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241106_120002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241106_120002-mysite_localhost-database.sql.gz 222.8KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241105_180003-projectsite-database.sql.gz is recent
+File ./projectsite/private/backups/20241105_120003-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241105_180003-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241105_120003-projectsite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241106_120003-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-11-06 12:00:03.612207
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241106_120003-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241106_120003-projectsite-database.sql.gz 246.3KiB
+Backup for Site projectsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_8145f057d7286b50 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _8145f057d7286b50 | /usr/bin/gzip >> ./AirplaneTask/private/backups/20241106_180001-AirplaneTask-database.sql.gz
+
+Backup Summary for AirplaneTask at 2024-11-06 18:00:01.995528
+Config  : /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241106_180001-AirplaneTask-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/AirplaneTask/private/backups/20241106_180001-AirplaneTask-database.sql.gz 396.4KiB
+Backup for Site AirplaneTask has been successfully completed
+File ./MySite/private/backups/20241106_120002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241105_120002-MySite-site_config_backup.json is older than 24 hours
+File ./MySite/private/backups/20241106_120002-MySite-database.sql.gz is recent
+File ./MySite/private/backups/20241105_120002-MySite-database.sql.gz is older than 24 hours
+File ./MySite/private/backups/20241105_180002-MySite-site_config_backup.json is recent
+File ./MySite/private/backups/20241105_180002-MySite-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_9c1b206df279fc7a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _9c1b206df279fc7a | /usr/bin/gzip >> ./MySite/private/backups/20241106_180001-MySite-database.sql.gz
+
+Backup Summary for MySite at 2024-11-06 18:00:02.512663
+Config  : /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241106_180001-MySite-site_config_backup.json 312.0B
+Database: /home/kumkum/New-FrappeBench/sites/MySite/private/backups/20241106_180001-MySite-database.sql.gz 396.8KiB
+Backup for Site MySite has been successfully completed
+File ./mysite.localhost/private/backups/20241105_120003-mysite_localhost-database.sql.gz is older than 24 hours
+File ./mysite.localhost/private/backups/20241105_120003-mysite_localhost-site_config_backup.json is older than 24 hours
+File ./mysite.localhost/private/backups/20241105_180003-mysite_localhost-site_config_backup.json is recent
+File ./mysite.localhost/private/backups/20241106_120002-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241105_180003-mysite_localhost-database.sql.gz is recent
+File ./mysite.localhost/private/backups/20241106_120002-mysite_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_65cfacc20ca157ce --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _65cfacc20ca157ce | /usr/bin/gzip >> ./mysite.localhost/private/backups/20241106_180002-mysite_localhost-database.sql.gz
+
+Backup Summary for mysite.localhost at 2024-11-06 18:00:02.919840
+Config  : /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241106_180002-mysite_localhost-site_config_backup.json 127.0B
+Database: /home/kumkum/New-FrappeBench/sites/mysite.localhost/private/backups/20241106_180002-mysite_localhost-database.sql.gz 223.6KiB
+Backup for Site mysite.localhost has been successfully completed
+File ./projectsite/private/backups/20241105_180003-projectsite-database.sql.gz is recent
+File ./projectsite/private/backups/20241105_120003-projectsite-site_config_backup.json is older than 24 hours
+File ./projectsite/private/backups/20241106_120003-projectsite-database.sql.gz is recent
+File ./projectsite/private/backups/20241106_120003-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241105_180003-projectsite-site_config_backup.json is recent
+File ./projectsite/private/backups/20241105_120003-projectsite-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_956384a4f6628197 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _956384a4f6628197 | /usr/bin/gzip >> ./projectsite/private/backups/20241106_180002-projectsite-database.sql.gz
+
+Backup Summary for projectsite at 2024-11-06 18:00:03.282458
+Config  : /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241106_180002-projectsite-site_config_backup.json 149.0B
+Database: /home/kumkum/New-FrappeBench/sites/projectsite/private/backups/20241106_180002-projectsite-database.sql.gz 247.0KiB
+Backup for Site projectsite has been successfully completed

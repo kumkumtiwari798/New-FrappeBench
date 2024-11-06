@@ -1,0 +1,71 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "rentals": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "0ec05dc35d713aec0602348797183d11706419f4",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "airplane_mode": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "1076fdf7b3263919381d7d7cbbf6ec6f7fd8e277",
+            "branch": "Airplane"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "interview_task": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "29109dcde6347a0fa1dea7f6a8a90d27805ac571",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    },
+    "interview_management_system": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "3596510490a748747010101650d49633f7de1fad",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "expensemanager": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "e279920f696050d11e65bc986a3ac8946f3aa378",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    },
+    "appointments_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "fae1cb67bdec8f15ebad962a81d0773c3d0b5488",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.1"
+    }
+}

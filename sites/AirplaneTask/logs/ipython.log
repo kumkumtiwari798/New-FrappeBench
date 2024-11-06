@@ -1,0 +1,52 @@
+2024-09-28 14:16:02,343 INFO ipython === bench console session ===
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", flight)
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_all("Airplane Ticket")
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_all("Airplane Ticket", SpiceJET-018-09-2024-0019-021-Airport-123- BLR)
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_all("Airplane Ticket", 'SpiceJET-018-09-2024-0019-021-Airport-123- BLR')
+2024-09-28 14:16:02,344 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", 'SpiceJET-018-09-2024-0019-021-Airport-123- BLR')
+2024-09-28 14:16:02,345 INFO ipython airplane_price_doc
+2024-09-28 14:16:02,345 INFO ipython set airplane_price_doc = frappe.get_doc("Airplane Ticket ", flight_price) 
+2024-09-28 14:16:02,345 INFO ipython set airplane_price_doc = frappe.get_All("Airplane Ticket ")
+2024-09-28 14:16:02,345 INFO ipython set airplane_price_doc = frappe.get_all("Airplane Ticket ")
+2024-09-28 14:16:02,345 INFO ipython set airplane_price_doc = frappe.db.get_all("Airplane Ticket ")
+2024-09-28 14:16:02,345 INFO ipython airplane_price_doc = frappe.db.get_all("Airplane Ticket ")
+2024-09-28 14:16:02,345 INFO ipython airplane_price_doc = frappe.db.get_all("Airplane Ticket")
+2024-09-28 14:16:02,345 INFO ipython airplane_price_doc
+2024-09-28 14:16:02,346 INFO ipython === session end ===
+2024-09-28 18:54:54,961 INFO ipython === bench console session ===
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", flight_price)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", status)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", doc.name)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", name)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket",flight)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket","flight")
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket","Flight")
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket",Flight)
+2024-09-28 18:54:54,962 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", IndiGo-001-09-2024-0005)
+2024-09-28 18:54:54,963 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", "IndiGo-001-09-2024-0005")
+2024-09-28 18:54:54,963 INFO ipython set airplane_price_doc = frappe.get_doc("Airplane Ticket", flight_id)
+2024-09-28 18:54:54,963 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", flight_id)
+2024-09-28 18:54:54,963 INFO ipython airplane_price_doc = frappe.get_doc("Airplane Ticket", flight)
+2024-09-28 18:54:54,963 INFO ipython === session end ===
+2024-10-17 11:11:03,862 INFO ipython === bench console session ===
+2024-10-17 11:11:03,862 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","Airline" ])
+2024-10-17 11:11:03,862 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight" ])
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airline" ], filters={"docstatus":1})
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airplane" ], filters={"docstatus":1})
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airplane" ], filters={"docstatus":0})
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airplane" ], filters={"docstatus":2})
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane AS Airline" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","airline" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 11:11:03,863 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight AS airline" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 11:11:03,863 INFO ipython === session end ===
+2024-10-17 12:48:34,225 INFO ipython === bench console session ===
+2024-10-17 12:48:34,226 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 12:48:34,226 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","flight.airplane" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["SUM(total_amount) AS total_revenue","airline" ], filters={"docstatus":1}, group_by="airplane")
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airplane" ], filters={"docstatus":2})
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airline" ], filters={"docstatus":2})
+2024-10-17 12:48:34,227 INFO ipython frappe.get_all("Airplane Ticket", fields=["total_amount","flight.airline" ], filters={"docstatus":1})
+2024-10-17 12:48:34,228 INFO ipython === session end ===
